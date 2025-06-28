@@ -19,10 +19,10 @@
                     <!-- Transformation Image Start -->
                     <div class="transformation-image wow fadeInUp" data-wow-delay="0.2s">					
                         <figure class="transform-img-1">
-                            <img src="/assets/images/transformation-img-1.jpg" alt="">
+                            <img src="/assets/images/newimg.jpg" alt="">
                         </figure>
 						<figure class="transform-img-2">
-                            <img src="/assets/images/transformation-img-2.jpg" alt="">
+                            <img src="/assets/images/newimgg.jpg" alt="">
                         </figure>
                     </div>
                     <!-- Transformation Image End -->
@@ -32,10 +32,10 @@
                     <!-- Transformation Image Start -->
                     <div class="transformation-image wow fadeInUp" data-wow-delay="0.4s">					
                         <figure class="transform-img-1">
-                            <img src="/assets/images/transformation-img-3.jpg" alt="">
+                            <img src="/assets/images/newimage.jpg" alt="">
                         </figure>
 						<figure class="transform-img-2">
-                            <img src="/assets/images/transformation-img-4.jpg" alt="">
+                            <img src="/assets/images/newimagee.jpg" alt="">
                         </figure>
                     </div>
                     <!-- Transformation Image End -->

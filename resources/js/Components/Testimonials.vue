@@ -102,8 +102,8 @@ onMounted(() => {
                                                 </figure>
                                             </div>            
                                             <div class="author-content">
-                                                <h3>Michael Thompson</h3>
-                                                <p>CEO, Tech Innovations</p>
+                                                <h3>Hayla</h3>
+                                                <p>CEO, WEBGENIX</p>
                                             </div>
                                         </div>                                    
                                     </div>
@@ -122,8 +122,8 @@ onMounted(() => {
                                                 </figure>
                                             </div>            
                                             <div class="author-content">
-                                                <h3>Jessica Williams</h3>
-                                                <p>Marketing Director, Global Solutions</p>
+                                                <h3>Rozana mcheik</h3>
+                                                <p>Loreum ipsum loreum ipsum</p>
                                             </div>
                                         </div>                                    
                                     </div>
@@ -142,8 +142,8 @@ onMounted(() => {
                                                 </figure>
                                             </div>            
                                             <div class="author-content">
-                                                <h3>Robert Chen</h3>
-                                                <p>Operations Director, Manufacturing Inc</p>
+                                                <h3>Loreum ipsum</h3>
+                                                <p>Loreum ipsum loreum ipsum</p>
                                             </div>
                                         </div>                                    
                                     </div>

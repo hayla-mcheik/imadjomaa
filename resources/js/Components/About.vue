@@ -10,7 +10,7 @@
                         <!-- About Image 1 Start -->
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="/assets/images/about-img-1.jpg" alt="">
+                                <img src="/assets/images/imggallery.jpg" alt="">
                             </figure>
 
                             <!-- Experience Circle Start -->
@@ -58,7 +58,7 @@
                             <!-- About Experience Image Start -->
                             <div class="about-experience-image">
                                 <figure class="image-anime reveal">
-                                    <img src="/assets/images/about-experience-image.jpg" alt="">
+                                    <img src="/assets/images/imggallery.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- About Experience Image End -->

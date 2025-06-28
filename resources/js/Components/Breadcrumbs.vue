@@ -4,9 +4,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-3" data-cursor="-opaque">{{ currentPageTitle }}</h1>
+                        <h1 class="text-anime-style-3" data-cursor="-opaque">{{ pageTitle }}</h1>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">
@@ -25,12 +24,10 @@
                             </ol>
                         </nav>
                     </div>
-                    <!-- Page Header Box End -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- Page Header End -->
 </template>
 
 <script setup>
@@ -40,29 +37,30 @@ import { usePage } from '@inertiajs/vue3';
 
 const page = usePage();
 
-// Get current page title from route or page props
-const currentPageTitle = computed(() => {
-    return page.props.title || 
-           page.props.currentPage?.title || 
-           'Our Page';
+// Get page title from controller
+const pageTitle = computed(() => {
+    return page.props.title || 'Our Page';
 });
 
-// Dynamic breadcrumbs with proper titles
+// Generate breadcrumbs based on route
 const breadcrumbs = computed(() => {
-    // Use custom breadcrumbs if provided from backend
-    if (page.props.breadcrumbs) {
-        return page.props.breadcrumbs;
-    }
-    
-    // Fallback to route-based breadcrumbs
-    const routeName = page.component.split('/').pop().replace('.vue', '');
-    return [
-        { 
-            path: '/about', 
-            title: routeName === 'About' ? 'About Us' : 
-                   routeName === 'Services' ? 'Our Services' : 
-                   routeName.charAt(0).toUpperCase() + routeName.slice(1) 
+    const pathArray = page.url.split('/').filter(item => item);
+    const breadcrumbs = [];
+    let accumulatedPath = '';
+
+    // Start from index 1 to skip the first empty string
+    pathArray.forEach((segment, index) => {
+        accumulatedPath += `/${segment}`;
+        
+        // Only add breadcrumb for the current page
+        if (index === pathArray.length - 1) {
+            breadcrumbs.push({
+                title: pageTitle.value,
+                path: accumulatedPath
+            });
         }
-    ];
+    });
+
+    return breadcrumbs;
 });
 </script>

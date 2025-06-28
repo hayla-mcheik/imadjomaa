@@ -114,7 +114,10 @@
                     <div class="footer-copyright">
                         <!-- Footer Copyright Text Start -->
                         <div class="footer-copyright-text">
-                            <p>Copyright © 2025 All Rights Reserved.</p>
+                        <footer>
+  <p>Copyright © 2025 Hayla – <a href="https://webgenix.info" target="_blank">Webgenix.info</a>. All Rights Reserved.</p>
+</footer>
+
                         </div>
                         <!-- Footer Copyright Text End -->
 

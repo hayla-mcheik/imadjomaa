@@ -8,7 +8,7 @@
                     <div class="hero-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <h3 class="wow fadeInUp">welcome to Dr. obeid clinic</h3>
+                            <h3 class="wow fadeInUp">Welcome to Dr. Obeid’s Medical Clinic</h3>
                             <h1 class="text-anime-style-3" data-cursor="-opaque">Discover Your Best Self With Us!</h1>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">Hello Dr. Obeid, this is a static website created only as a demo to show the design. Once you approve the design, we can start developing the dynamic version, which will take around two weeks to complete.</p>
                         </div>

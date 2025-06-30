@@ -31,7 +31,7 @@ onMounted(() => {
 
 <template>
       <!-- Top Bar Start -->
-    <div class="top-bar">
+    <div class="top-bar d-none d-md-flex">
         <div class="container">
             <div class="top-bar-container">
                 <div class="top-bar-left">
@@ -48,11 +48,18 @@ onMounted(() => {
                         <span>Mon-Fri: 8AM - 6PM</span>
                     </div>
                 </div>
-                <div class="top-bar-right">
-                    <a href="https://www.facebook.com/profile.php?id=100091064031710" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/dr.mohamad_obeid/" class="social-icon"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                </div>
+         <div class="top-bar-right">
+    <a href="https://www.facebook.com/profile.php?id=100091064031710" class="social-icon" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://www.instagram.com/dr.mohamad_obeid/" class="social-icon" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="#" class="social-icon" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+</div>
+
             </div>
         </div>
     </div>

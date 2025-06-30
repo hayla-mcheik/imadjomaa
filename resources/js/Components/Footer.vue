@@ -44,9 +44,9 @@
                         <!-- Footer Social Link Start -->
                         <div class="footer-social-links">
                             <ul>
-                                <li><Link href="#"><i class="fa-brands fa-x-twitter"></i></Link> </li>
-                                <li><Link href="https://www.facebook.com/profile.php?id=100091064031710"><i class="fa-brands fa-facebook-f"></i></Link> </li>
-                                <li><Link href="https://www.instagram.com/dr.mohamad_obeid/"><i class="fa-brands fa-instagram"></i></Link> </li>
+                                <li><a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a> </li>
+                                <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100091064031710"><i class="fa-brands fa-facebook-f"></i></a> </li>
+                                <li><a target="_blank" href="https://www.instagram.com/dr.mohamad_obeid/"><i class="fa-brands fa-instagram"></i></a> </li>
                             </ul>
                         </div>
                         <!-- Footer Social Link End -->

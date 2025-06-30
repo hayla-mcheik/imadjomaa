@@ -18,11 +18,11 @@
                         <div class="hero-body wow fadeInUp" data-wow-delay="0.4s">
                             <!-- Hero Button Start -->
                             <div class="hero-btn w-100">
-                             
+                             <Link href="/book-appointment">
                                     <button class="appointment-btn">
                                         <i class="fas fa-calendar-check"></i> Book Appointment
                                     </button>
-                                    
+                                </Link>
                               </div>
                             <!-- Hero Button End -->
 

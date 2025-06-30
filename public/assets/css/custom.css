@@ -1244,7 +1244,6 @@ header.main-header .header-sticky.active{
 	align-items: center;
 	justify-content: space-between;
 	gap: 40px;
-	margin-bottom: 20px;
 }
 
 .service-content-title h2{
@@ -4755,7 +4754,6 @@ header.main-header .header-sticky.active{
 
 	.service-content-title{
 		gap: 10px;
-		margin-bottom: 15px;
 	}
 
 	.service-content-title h2{

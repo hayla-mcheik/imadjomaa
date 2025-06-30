@@ -30,9 +30,9 @@
                         </div>
                                   <div class="service-content mt-2">
                             <div class="service-content-title">
-                                <h2><Link href="#" class="text-lg font-bold">loreum ipsum</Link> </h2>
+                                 <h2><Link href="#" class="text-lg font-bold">Medical & Helath , Medical etc..</Link> </h2>
                             </div>
-                            <p class="text-sm">A loreum ipsum loreum ipsumloreum ipsum loreum ipsum</p>                            
+                            <p class="text-sm mt-1">A loreum ipsum loreum ipsumloreum ipsum loreum ipsum</p>                            
                         </div>
                     </div>
                     <!-- Service Item End -->
@@ -51,9 +51,9 @@
                         </div>
                                   <div class="service-content mt-2">
                             <div class="service-content-title">
-                                <h2><Link href="#" class="text-lg font-bold">loreum ipsum</Link> </h2>
+                         <h2><Link href="#" class="text-lg font-bold">Medical & Helath , Medical etc..</Link> </h2>
                             </div>
-                            <p class="text-sm">A loreum ipsum loreum ipsumloreum ipsum loreum ipsum</p>                            
+                            <p class="text-sm mt-1">A loreum ipsum loreum ipsumloreum ipsum loreum ipsum</p>                            
                         </div>
                     </div>
                     <!-- Service Item End -->
@@ -71,9 +71,9 @@
                         </div>
                                   <div class="service-content mt-2">
                             <div class="service-content-title">
-                                <h2><Link href="#" class="text-lg font-bold">loreum ipsum</Link> </h2>
+                                <h2><Link href="#" class="text-lg font-bold">Medical & Helath , Medical etc..</Link> </h2>
                             </div>
-                            <p class="text-sm">A loreum ipsum loreum ipsumloreum ipsum loreum ipsum</p>                            
+                            <p class="text-sm mt-1">A loreum ipsum loreum ipsumloreum ipsum loreum ipsum</p>                            
                         </div>
                     </div>
                     <!-- Service Item End -->

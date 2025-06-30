@@ -18,7 +18,7 @@
                             <!-- Appointment Item Start -->
                             <div class="appointment-item wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="icon-box">
-                                    <img src="/assets/images/icon-appointment-item-1.svg" alt="">
+                               
                                 </div>
                                 <div class="appointment-item-content">
                                     <h3>Customer Services</h3>
@@ -30,7 +30,7 @@
                             <!-- Appointment Item Start -->
                             <div class="appointment-item wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="icon-box">
-                                    <img src="/assets/images/icon-appointment-item-2.svg" alt="">
+                                  
                                 </div>
                                 <div class="appointment-item-content">
                                     <h3>Opening Hours</h3>

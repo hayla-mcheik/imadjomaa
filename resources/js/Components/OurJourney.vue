@@ -34,7 +34,7 @@
 
                             <!-- Journey Experience Circle Start -->
                             <div class="journey-experience-circle">
-                                <img src="/assets/images/experience-circle-white.svg" alt="">
+                                <img src="/assets/images/experience-circle.png" alt="">
                             </div>
                             <!-- Journey Experience Circle End -->
                         </div>

@@ -5,7 +5,7 @@ import GuestLayout from '@/Layouts/GuestLayout.vue'
 import HeroSlider from '@/Components/HeroSlider.vue'
 import About from '@/Components/About.vue'
 import Services from '@/Components/Services.vue'
-import Whatwedo from '@/Components/whatwedo.vue';
+import Whatwedo from '@/Components/Whatwedo.vue';
 // import IntroVideo from '@/Components/IntroVideo.vue'
 import CaseStudy from '@/Components/CaseStudy.vue'
 import Whywechoose from '@/Components/Whywechoose.vue'
@@ -42,7 +42,6 @@ onUpdated(() => {
 <Services />
 <Whatwedo />
  <IntroVideo /> 
- <CaseStudy />
  <Results />
   <Testimonials /> 
 <Howitworks />

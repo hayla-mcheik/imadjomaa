@@ -15,7 +15,7 @@
 
                             <!-- Experience Circle Start -->
                             <div class="company-experience-circle">
-                                <img src="/assets/images/experience-circle.svg" alt="">
+                                <img src="/assets/images/experience-circle.png" alt="">
                             </div>
                             <!-- Experience Circle End -->      
                         </div>

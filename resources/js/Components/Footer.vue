@@ -1,5 +1,7 @@
 <template>
-
+         <!-- <div class="footer-contact-btn">
+                            <Link href="" class="btn-default">Chat on Whatsapp</Link> 
+                        </div> -->
     <footer class="main-footer bg-section dark-section">
         <div class="container">
             <div class="row">
@@ -143,5 +145,10 @@ import {Link} from '@inertiajs/vue3';
 </script>
 
 <style scoped>
-
+.footer-contact-btn{
+    position: fixed;
+    bottom: 1%;
+    right:0%;
+    z-index: 999;
+}
 </style>

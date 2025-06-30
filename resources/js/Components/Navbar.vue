@@ -30,6 +30,33 @@ onMounted(() => {
 </script>
 
 <template>
+      <!-- Top Bar Start -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-container">
+                <div class="top-bar-left">
+                    <div class="top-bar-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Beirut, Lebanon</span>
+                    </div>
+                    <div class="top-bar-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@clinic.com</span>
+                    </div>
+                    <div class="top-bar-item d-none d-md-flex">
+                        <i class="fas fa-clock"></i>
+                        <span>Mon-Fri: 8AM - 6PM</span>
+                    </div>
+                </div>
+                <div class="top-bar-right">
+                    <a href="https://www.facebook.com/profile.php?id=100091064031710" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/dr.mohamad_obeid/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Bar End -->
     <!-- Header Start -->
 	<header class="main-header navbar-container">
 		<div class="header-sticky bg-section">
@@ -37,7 +64,7 @@ onMounted(() => {
 				<div class="container-fluid">
 					<!-- Logo Start -->
 					<Link class="navbar-brand" href="/">
-						<img src="/assets/images/logo.png" class="w-200px" alt="Logo">
+						<img src="/assets/images/logo.png" class="w-[100%]" alt="Logo">
 					</Link> 
 					<!-- Logo End -->
 
@@ -50,8 +77,8 @@ onMounted(() => {
 
 					<!-- Main Menu Start (Desktop Only) -->
 					<div class="collapse navbar-collapse main-menu d-none d-lg-flex">
-                        <div class="nav-menu-wrapper">
-                            <ul class="navbar-nav mr-auto" id="menu">
+                        <div class="nav-menu-wrapper d-flex justify-center">
+                            <ul class="navbar-nav " id="menu">
                                 <li class="nav-item"><Link class="nav-link" href="/">Home</Link> </li>                                
                                 <li class="nav-item"><Link class="nav-link" href="/about">About Us</Link> </li>
                                 <li class="nav-item"><Link class="nav-link" href="/services">Services</Link> </li>
@@ -63,10 +90,19 @@ onMounted(() => {
                         </div>
                         
                         <!-- Header Contact Btn Start -->
-                        <div class="header-contact-btn">
-                            <a href="tel:+96170003161" class="header-contact-now"><i class="fa-solid fa-phone"></i>+96170003161</a> 
-                            <Link href="/book-appointment" class="btn-default">Make an Appointment</Link> 
-                        </div>
+          <div class="header-contact-btn">   
+    <a href="tel:+96170003161" class="header-contact-now" aria-label="Call +96170003161">
+        <img src="/assets/images/call.svg" alt="Call Icon" class="call-icon" />
+        <div class="d-block">
+  <span class="phone-number">+96170003161</span>
+  <br/>
+            <span class="hotline-text">Hotline 24/7</span>
+        </div>
+      
+    </a> 
+
+</div>
+
                         <!-- Header Contact Btn End -->
 					</div>
 					<!-- Main Menu End -->
@@ -117,6 +153,58 @@ onMounted(() => {
 </template>
 
 <style scoped>
+/* Top bar styles */
+.top-bar {
+    background: #000;
+    color: white;
+    padding: 12px 0;
+    font-size: 14px;
+}
+
+.top-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.top-bar-left {
+    display: flex;
+    gap: 30px;
+}
+
+.top-bar-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.top-bar-item i {
+    color:linear-gradient(to right, var(--back-color), var(--secondary-color));
+}
+
+.top-bar-right {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background: var(--divider-color);
+    transform: translateY(-2px);
+}
+
 .header-contact-btn{
   visibility: visible;
 }
@@ -141,7 +229,7 @@ onMounted(() => {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--divider-color);
   z-index: 1000;
 }
 
@@ -186,9 +274,11 @@ onMounted(() => {
 }
 
 .mobile-nav-link:hover {
-  color: #FF5E1A;
+  color: var(--back-color);
 }
-
+.nav-link:hover{
+  color: var(--back-color);
+}
 .mobile-contact {
   display: flex;
   align-items: center;
@@ -201,7 +291,7 @@ onMounted(() => {
 
 .mobile-appointment-btn {
   display: block;
-  background-color: #FF5E1A;
+  background-color: var(--divider-color);
   color: white;
   text-align: center;
   padding: 12px;
@@ -213,7 +303,7 @@ onMounted(() => {
 }
 
 .mobile-appointment-btn:hover {
-  background-color: #e05517;
+  background-color: var(--divider-color);
 }
 
 
@@ -308,7 +398,7 @@ onMounted(() => {
   visibility: visible;
 }
 .text-secondary {
-  color: #FF5E1A;
+  color: var(--divider-color);
 }
 
 .navbar-container {

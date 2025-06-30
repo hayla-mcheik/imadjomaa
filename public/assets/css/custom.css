@@ -4641,9 +4641,7 @@ header.main-header .header-sticky.active{
 		margin-bottom: 30px;
 	}
 
-	.section-title h3{
-		padding-left: 15px
-	}
+	
 
 	.section-title h3::before{
 		width: 20px;

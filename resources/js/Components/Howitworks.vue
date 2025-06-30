@@ -17,7 +17,7 @@
 
                         <!-- How Work Button Start -->
                         <div class="how-work-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <Link href="/contact" class="btn-default">contact us</Link> 
+                            <Link href="/contact" class="appointment-btn">contact us</Link> 
                         </div>
                         <!-- How Work Button End -->
                     </div>

@@ -1,6 +1,6 @@
 <template>
     <!-- Our Journey Section Start -->
-    <div class="our-journey dark-section bg-section">
+    <div class="our-journey">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -90,9 +90,7 @@
                         <!-- Our Journey Body End -->
 
                         <!-- Our Journey Button Start -->
-                        <div class="our-journey-btn wow fadeInUp" data-wow-delay="0.8s">
-                            <Link href="/contact" class="btn-default btn-highlighted">contact us</Link> 
-                        </div>
+
                         <!-- Our Journey Button End -->
                     </div>
                     <!-- Our Journey Content End -->

@@ -14,6 +14,7 @@ import Testimonials from '@/Components/Testimonials.vue'
 import Results from '@/Components/Results.vue'
 import Appointment from '@/Components/Appointment.vue'
 import IntroVideo from '@/Components/IntroVideo.vue';
+import QA from '@/Components/QA.vue';
 // Initialize carousel when component mounts or updates
 const initializeCarousel = () => {
   // Ensure we're in the browser environment
@@ -39,13 +40,12 @@ onUpdated(() => {
 
 <HeroSlider />
 <About />
-<Services />
-<Whatwedo />
- <IntroVideo /> 
+  <IntroVideo /> 
+ <Services /> 
+
  <Results />
   <Testimonials /> 
-<Howitworks />
-
+<QA />
 
 <Appointment />
 </GuestLayout>

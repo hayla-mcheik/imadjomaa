@@ -13,6 +13,24 @@
                         </a>
                     </div>
                 </div>
+                    <div class="col-lg-4 col-6">
+                    <div class="photo-gallery wow fadeInUp">
+                        <a href="/assets/images/img-rhino.jpg" data-cursor-text="View">
+                            <figure class="image-anime">
+                                <img src="/assets/images/img-rhino.jpg" alt="">
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                               <div class="col-lg-4 col-6">
+                    <div class="photo-gallery wow fadeInUp">
+                        <a href="/assets/images/rhino-img.jpg" data-cursor-text="View">
+                            <figure class="image-anime">
+                                <img src="/assets/images/rhino-img.jpg" alt="">
+                            </figure>
+                        </a>
+                    </div>
+                </div>
                 <!-- Add more gallery items here -->
             </div>
         </div>

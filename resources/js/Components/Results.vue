@@ -41,14 +41,13 @@
                     <!-- Transformation Image End -->
                 </div>
                 
-                <div class="col-lg-12">
+                <div class="col-lg-12 justify-center">
                     <!-- Facts Counter Box Start -->
                     <div class="facts-counter-box">
                         <!-- Facts Counter Item Start -->
                         <div class="facts-counter-item">
                             <div class="icon-box">
-                                <img src="/assets/images/icon-facts-counter-1.svg" alt="">
-                            </div>
+                                           </div>
                             <div class="facts-counter-content">
                                 <h3><span class="counter">10</span>+</h3>
                                 <p>Years Of Experience</p>
@@ -59,7 +58,7 @@
                         <!-- Facts Counter Item Start -->
                         <div class="facts-counter-item">
                             <div class="icon-box">
-                                <img src="/assets/images/icon-facts-counter-2.svg" alt="">
+                                
                             </div>
                             <div class="facts-counter-content">
                                 <h3><span class="counter">150</span>K+</h3>
@@ -71,7 +70,7 @@
                         <!-- Facts Counter Item Start -->
                         <div class="facts-counter-item">
                             <div class="icon-box">
-                                <img src="/assets/images/icon-facts-counter-3.svg" alt="">
+                               
                             </div>
                             <div class="facts-counter-content">
                                 <h3><span class="counter">5</span>+</h3>
@@ -83,7 +82,7 @@
                         <!-- Facts Counter Item Start -->
                         <div class="facts-counter-item">
                             <div class="icon-box">
-                                <img src="/assets/images/icon-facts-counter-4.svg" alt="">
+                 
                             </div>
                             <div class="facts-counter-content">
                                 <h3><span class="counter">2</span>K+</h3>

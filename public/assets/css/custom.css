@@ -56,7 +56,7 @@
 	--dark-divider-color		: #FFFFFF1A;
 	--error-color				: rgb(230, 87, 87);
 	--default-font				: "Sora", sans-serif;
-	--accent-font				: "Marcellus", serif;
+	--accent-font				: "inter", sans-serif;
 }
 
 /************************************/
@@ -426,7 +426,7 @@ body{
 	line-height: 1.7em;
 	letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: var(--accent-color);
+    color: var(--back-color);
     margin-bottom: 10px;
 }
 
@@ -1922,7 +1922,6 @@ header.main-header .header-sticky.active{
 	padding: 100px 0;
 	    background-image: url(../images/service-bg-shape.svg);
     background-size: cover;
-	background-color: var(--secondary-color);
 }
 
 .transformation-image{
@@ -2004,6 +2003,7 @@ header.main-header .header-sticky.active{
 	position: relative;
 	width: calc(25% - 37.5px);
 	display: flex;
+	justify-content: center;
 }
 
 .facts-counter-item::before{
@@ -2781,7 +2781,7 @@ header.main-header .header-sticky.active{
 .our-journey-list ul li{
 	position: relative;
 	width: calc(50% - 15px);
-	color: var(--white-color);
+	color: #000;
 	line-height: 1.5em;
 	padding-left: 30px;
 }
@@ -2858,7 +2858,7 @@ header.main-header .header-sticky.active{
 }
 
 .journey-item-content h3{
-	color: var(--white-color);
+	color: #000;
 	font-size: 20px;
 	line-height: 1.4em;
 	text-transform: capitalize;
@@ -2953,9 +2953,9 @@ header.main-header .header-sticky.active{
 
 .our-faqs-images{
 	position: relative;
-	background: url('../images/faq-dot-img.svg') no-repeat;
-	background-position: left 187px bottom 46px;
-	background-size: 84px auto;
+	background: url('../images/faq-dot-img.png') no-repeat;
+    background-position: left 140px bottom 8px;
+    background-size: 127px auto;
 	display: flex;
 	flex-wrap: wrap;
 	margin-right: 20px;
@@ -6335,3 +6335,17 @@ header.main-header .header-sticky.active{
 .color-green{
 	color: var(--divider-color) !important;
 }
+        .appointment-btn {
+            background: linear-gradient(to right, var(--back-color), var(--secondary-color));
+            color: white;
+            padding: 14px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            text-align: center;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+	
+        }
+        

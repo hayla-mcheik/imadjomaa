@@ -1,7 +1,7 @@
 <template>
 
     <!-- Our Appointment Section Start -->
-    <div class="our-appointment bg-section">
+    <div class="our-appointment bg-section mb-2">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 order-lg-1 order-2">
@@ -63,7 +63,7 @@
 
                                 <div class="col-lg-12">
                                     <div class="contact-form-btn">
-                                        <button type="submit" class="btn-default">get appointment</button>
+                                        <button type="submit" class="appointment-btn w-100">get appointment</button>
                                         <div id="msgSubmit" class="h3 hidden"></div>
                                     </div>
                                 </div>

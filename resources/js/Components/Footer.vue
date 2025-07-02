@@ -2,142 +2,144 @@
          <!-- <div class="footer-contact-btn">
                             <Link href="" class="btn-default">Chat on Whatsapp</Link> 
                         </div> -->
-    <footer class="main-footer bg-section dark-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Footer Header Start -->
-                    <div class="footer-header">
-                        <!-- Section Title Start -->
-                        <div class="section-title footer-newsletter-title">
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">loreum ipsum loreum ipsum</h2>
-                        </div>
-                        <!-- Section Title End -->
+    <!-- Footer Start -->
+    <footer class="main-footer">
 
-                        <!-- Footer Newsletter Form Start -->
-                        <div class="footer-newsletter-form">
-                            <form id="newslettersForm" action="#" method="POST">
-                                <div class="form-group">
-                                    <input type="email" name="mail" class="form-control" id="mail" placeholder="Enter your email" required="">
-                                    <button type="submit" class="readmore-btn"><img src="/assets/images/arrow-white.svg" alt=""></button>
-                                </div>
-                            </form>
+        <!-- Footer Main Start -->
+		<div class="footer-main">
+			<div class="container">
+				<div class="row">
+                    <div class="col-lg-4">
+                        <!-- About Footer Start -->
+                        <div class="about-footer">
+                            <!-- Footer Logo Start -->
+                            <div class="footer-logo">
+                                <img src="/assets/images/logo.png" alt="">
+                            </div>
+                            <!-- Footer Logo End -->
+    
+                            <!-- About Footer Content Start -->
+                            <div class="about-footer-content">
+                                <p>Quality Work with No Limits. Freelancing Made Simple and Successful.</p>
+                            </div>
+                            <!-- About Footer Content End -->
+    
+                            <!-- Footer Privacy Policy Start -->
+                            <div class="footer-privacy-policy">
+                                <ul>
+                                    <li><a href="#">help</a></li>
+                                    <li><a href="#">Privacy policy</a></li>
+                                    <li><a href="#">Term's & condition</a></li>
+                                </ul>
+                            </div>
+                            <!-- Footer Privacy Policy End -->
                         </div>
-                        <!-- Footer Newsletter Form End -->
+                        <!-- About Footer End -->
                     </div>
-                    <!-- Footer Header End -->                 
-                </div>
-
-                <div class="col-lg-4 col-md-12">
-                    <!-- About Footer start -->
-                    <div class="about-footer">
-                        <!-- Footer Logo Start -->
-                  
-                        <!-- Footer Logo End -->
-
-                        <!-- About Footer Content Start -->
-                        <div class="about-footer-content">
-                            <p>loreum ipsum loreum ipsum loreum ipsum loreum ipsum.</p>
-                        </div>
-                        <!-- About Footer Content End -->
-
-                        <!-- Footer Social Link Start -->
-                        <div class="footer-social-links">
-                            <ul>
-                                <li><a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a> </li>
-                                <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100091064031710"><i class="fa-brands fa-facebook-f"></i></a> </li>
-                                <li><a target="_blank" href="https://www.instagram.com/dr.mohamad_obeid/"><i class="fa-brands fa-instagram"></i></a> </li>
-                            </ul>
-                        </div>
-                        <!-- Footer Social Link End -->
-                    </div>
-                    <!-- About Footer End -->
-                </div>
-
-                <div class="col-lg-8">
-                    <div class="footer-links-box">
-                        <!-- Footer Links Start -->
-                        <div class="footer-links quick-links">
-                            <h3>quick link</h3>
-                            <ul>
-                                <li><Link href="/">Home</Link> </li>
-                                <li><Link href="/about">About us</Link> </li>
-                                <li><Link href="/services">services</Link> </li>
-                                <li><Link href="/contact">Contact us</Link> </li>
-                            </ul>
-                        </div>
-                        <!-- Footer Links End -->
-
+                    
+                    <div class="col-lg-2 col-md-3">
                         <!-- Footer Links Start -->
                         <div class="footer-links">
-                            <h3>Open Hours:</h3>
+                            <h3>Quick link</h3>
                             <ul>
-                                <li>Mon-Sat: 10:00 to 07:00</li>
-                                <li>Saturday-Closed</li>
+                                <li><a href="index.html">home</a></li>
+                                <li><a href="about.html">about us</a></li>
+                                <li><a href="services.html">services</a></li>
+                                <li><a href="blog.html">blog</a></li>
                             </ul>
                         </div>
                         <!-- Footer Links End -->
                     </div>
                     
-                    <!-- Footer Contact Box Start -->
-                    <div class="footer-contact-box">
-                        <!-- Footer Contact Item Start -->
-                        <div class="footer-links footer-contact-item">
-                            <h3>Contact:</h3>
+                    <div class="col-lg-3 col-md-5">
+                        <!-- Footer Links Start -->
+                        <div class="footer-links">
+                            <h3>Services</h3>
                             <ul>
-                                <li><i class="fa-solid fa-phone"></i><a href="tel:+96170003161">+96170003161</a> </li>
+                                <li><a href="service-single.html">search engine optimization</a></li>
+                                <li><a href="service-single.html">e-commerce solutions</a></li>
+                                <li><a href="service-single.html">web design & development</a></li>
+                                <li><a href="service-single.html">content management systems</a></li>
                             </ul>
                         </div>
-                        <!-- Footer Contact Item End -->
-
-                        <!-- Footer Contact Item Start -->
-                        <div class="footer-links footer-contact-item">
-                            <h3>E-mail:</h3>
-                            <ul>
-                                <li><i class="fa-solid fa-envelope"></i><a href="mailto:clinicobeid@gmail.com">clinicobeid@gmail.com</a> </li>
-                            </ul>
-                        </div>
-                        <!-- Footer Contact Item End -->
-
-                        <!-- Footer Contact Item Start -->
-                        <div class="footer-links footer-contact-item">
-                            <h3>Address:</h3>
-                            <ul>
-                                <li><i class="fa-solid fa-location-dot"></i>beirut,lebanon</li>
-                            </ul>
-                        </div>
-                        <!-- Footer Contact Item End -->
+                        <!-- Footer Links End -->
                     </div>
-                    <!-- Footer Contact Box End -->
-                </div>
 
-                <div class="col-lg-12">
-                    <!-- Footer Copyright Section Start -->
-                    <div class="footer-copyright">
+                    <div class="col-lg-3 col-md-4">
+                        <!-- Footer Content List Box Start -->
+                        <div class="footer-links footer-content-list">
+                            <h3>Contact</h3>
+
+                            <!-- Footer Content Item Start -->
+                            <div class="footer-contact-item">
+                                <div class="icon-box">
+                                    <img src="images/icon-phone.svg" alt="">
+                                </div>
+                                <div class="footer-contact-content">
+                                    <p><a href="tel:+123456789">+123 456 789</a></p>
+                                    <p><a href="#">domain@gmail.com</a></p>
+                                </div>
+                            </div>
+                            <!-- Footer Content Item End -->
+                            
+                            <!-- Footer Content Item Start -->
+                            <div class="footer-contact-item">
+                                <div class="icon-box">
+                                    <img src="images/icon-location.svg" alt="">
+                                </div>
+                                <div class="footer-contact-content">
+                                    <p>123 Creative Lane London, SW1A 1AA UK</p>
+                                </div>
+                            </div>
+                            <!-- Footer Content Item End -->
+                        </div>
+                        <!-- Footer Content List Box End -->
+                    </div>
+
+                    <div class="col-lg-12">
+                        <!-- Footer CTA Box Start -->
+                        <div class="footer-cta-box">
+                            <!-- Footer Newsletter Form Start -->
+                            <div class="footer-newsletter-form">
+                                <h3>Subscribe our newsletter:</h3>
+                                <form id="newslettersForm" action="#" method="POST">
+                                    <div class="form-group">
+                                        <input type="email" name="mail" class="form-control" id="mail" placeholder="Enter Email" required="">
+                                        <button type="submit" class="btn-highlighted">subscribe</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- Footer Newsletter Form End -->
+
+                            <!-- Footer Social Links Start -->
+                            <div class="footer-social-links">
+                                <span>Follow on: </span>
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>                                    								
+                                </ul>
+                            </div>
+                            <!-- Footer Social Links End -->
+                        </div>
+                        <!-- Footer CTA Box End -->
+                    </div>
+
+                    <div class="col-lg-12">
                         <!-- Footer Copyright Text Start -->
                         <div class="footer-copyright-text">
-                        <footer>
-  <p>Copyright © 2025 Hayla – <a href="https://webgenix.info" target="_blank">Webgenix.info</a>. All Rights Reserved.</p>
-</footer>
-
+                            <p>Copyright © 2025 All Rights Reserved.</p>
                         </div>
                         <!-- Footer Copyright Text End -->
-
-                        <!-- Footer Privacy Policy Start -->
-                        <div class="footer-privacy-policy">
-                            <ul>
-                                <li><Link href="#">Privacy policy</Link> </li>
-                                <li><Link href="#">Term's & condition</Link> </li>
-                                <li><Link href="#">help</Link> </li>
-                            </ul>
-                        </div>
-                        <!-- Footer Privacy Policy End -->
                     </div>
-                    <!-- Footer Copyright Section End -->
-                </div>
-            </div>
-        </div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer Main End -->
     </footer>
+    <!-- Footer End -->
+
 </template>
 
 <script setup>

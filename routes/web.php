@@ -23,9 +23,9 @@ Route::get('/','home')->name('home.index');
 Route::get('/about','about')->name('about.index');
 Route::get('/contact','contact')->name('contact.index');
 Route::get('/services','services')->name('services.index');
-Route::get('/image-gallery','galleryimages')->name('galleryimages.index');
-Route::get('/video-gallery','galleryvideos')->name('galleryvideos.index');
-Route::get('/book-appointment','appointment')->name('appointment.index');
+Route::get('/projects','projects')->name('projects.index');
+Route::get('/news','news')->name('news.index');
+Route::get('/events','events')->name('events.index');
 });
 
 Route::get('/dashboard', function () {

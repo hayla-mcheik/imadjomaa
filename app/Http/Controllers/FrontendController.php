@@ -21,24 +21,24 @@ class FrontendController extends Controller
         ]);
     }
 
-    public function galleryimages()
+    public function projects()
     {
-        return Inertia::render('Frontend/GalleryImages', [
-            'title' => 'Image Gallery'
+        return Inertia::render('Frontend/Projects', [
+            'title' => 'Projects'
         ]);
     }
 
-    public function galleryvideos()
+    public function events()
     {
-        return Inertia::render('Frontend/GalleryVideos', [
-            'title' => 'Video Gallery'
+        return Inertia::render('Frontend/Events', [
+            'title' => 'Events'
         ]);
     }
 
-    public function appointment()
+    public function news()
     {
-        return Inertia::render('Frontend/Appointment', [
-            'title' => 'Book Appointment'
+        return Inertia::render('Frontend/News', [
+            'title' => 'News'
         ]);
     }
 

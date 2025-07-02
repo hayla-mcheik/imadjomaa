@@ -57,18 +57,11 @@ new Swiper(".say-about-slider", {
     <div class="say-about-section mb-110">
         <img src="assets/img/home1/testimonial-vector-2.png" alt="" class="vector3">
         <img src="assets/img/home1/testimonial-vector-1.png" alt="" class="vector4">
-         <div class="container-fluid p-0">
-            <div class="section-title2 style-3 section-title">
-                <h2>Testimonials About Our Work</h2>
-                <div class="slider-btn">
-                    <div class="about-prev-btn">
-                        <i class="bi bi-arrow-left"></i>
+         <div class="container">
+      <div class="section-title">
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Our <span>Testimonials</span></h2>
                     </div>
-                    <div class="about-next-btn">
-                        <i class="bi bi-arrow-right"></i>
-                    </div>
-                </div>
-            </div>
+      
             <div class="say-about-wrapper">
                 <div class="row">
                     <div class="col-lg-12">
@@ -305,13 +298,13 @@ new Swiper(".say-about-slider", {
   width: 100px;
 }
 .section-title2.style-3 {
-  padding: 0 19.5%;
+  padding: 0 3%;
   position: relative;
   margin-bottom: 100px;
 }
 @media (max-width: 991px) {
   .section-title2.style-3 {
-    padding: 0 10%;
+    padding: 0 3%;
     margin-bottom: 80px;
   }
 }
@@ -338,7 +331,6 @@ new Swiper(".say-about-slider", {
   width: 100%;
 }
 .say-about-section {
-  background: var(--secondary-color);
   padding: 100px 0;
   overflow: hidden;
   position: relative;
@@ -425,7 +417,7 @@ new Swiper(".say-about-slider", {
   color: #000;
 }
 .say-about-section .say-about-wrapper .say-about-card p {
-  color: #000;
+  color: #fff;
   font-size: 20px;
   font-family: var(--font-Jost);
   line-height: 1.9;

@@ -1,88 +1,161 @@
 <template>
 
 
-    <!-- Our Services Section Start -->
-    <div class="our-services bg-section">
+    <!-- Page Services Start -->
+    <div class="page-services">   
         <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-12">
-                    <!-- Section Title Start -->
-                    <div class="section-title section-title-center">
-                        <h3 class="wow fadeInUp">Services</h3>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Services We Provided</h2>
+                        <div class="section-title">
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Our <span>Services</span></h2>
                     </div>
-                    <!-- Section Title End -->
-                </div>
-            </div>
-            
             <div class="row">
-      
-
                 <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-image">
-                            <Link href="#" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="/assets/images/img-rhino.jpg" alt="">
-                                </figure>
-                            </Link>                            
-                        </div>
-                                  <div class="service-content mt-2">
-                            <div class="service-content-title">
-                                 <h2><Link href="#" class="text-lg font-bold">Medical & Helath , Medical etc..</Link> </h2>
+                    <!-- Service List Item Start -->
+                    <div class="service-list-item wow fadeInUp">
+                        <!-- Service Item Start -->
+                        <div class="service-item">
+                            <div class="icon-box">
+                                <img src="/assets/images/icon-service-2.png" alt="">
                             </div>
-                            <p class="text-sm mt-1">A loreum ipsum loreum ipsumloreum ipsum loreum ipsum</p>                            
+                            <div class="service-list-content">
+                                <h3>Search engine optimization</h3>
+                                <p>We create visually, user-friendly websites your business.</p>
+                            </div>
                         </div>
+                        <!-- Service Item End -->
+                        
+                        <!-- Service Readmore Button Start -->
+                        <div class="service-readmore-btn">
+                            <a href="service-single.html"><img src="images/arrow-white.svg" alt=""></a>
+                        </div>
+                        <!-- Service Readmore Button End -->
                     </div>
-                    <!-- Service Item End -->
+                    <!-- Service List Item End -->
                 </div>
 
-           
                 <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-image">
-                            <Link href="#" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="/assets/images/rhino-img.jpg" alt="">
-                                </figure>
-                            </Link>                            
-                        </div>
-                                  <div class="service-content mt-2">
-                            <div class="service-content-title">
-                         <h2><Link href="#" class="text-lg font-bold">Medical & Helath , Medical etc..</Link> </h2>
+                    <!-- Service List Item Start -->
+                    <div class="service-list-item wow fadeInUp" data-wow-delay="0.2s">
+                        <!-- Service Item Start -->
+                        <div class="service-item">
+                            <div class="icon-box">
+                                 <img src="/assets/images/icon-service-2.png" alt="">
                             </div>
-                            <p class="text-sm mt-1">A loreum ipsum loreum ipsumloreum ipsum loreum ipsum</p>                            
-                        </div>
-                    </div>
-                    <!-- Service Item End -->
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-image">
-                            <Link href="#" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="/assets/images/img-rhino.jpg" alt="">
-                                </figure>
-                            </Link>                            
-                        </div>
-                                  <div class="service-content mt-2">
-                            <div class="service-content-title">
-                                <h2><Link href="#" class="text-lg font-bold">Medical & Helath , Medical etc..</Link> </h2>
+                            <div class="service-list-content">
+                                <h3>E-commerce solutions</h3>
+                                <p>We create visually, user-friendly websites your business.</p>
                             </div>
-                            <p class="text-sm mt-1">A loreum ipsum loreum ipsumloreum ipsum loreum ipsum</p>                            
                         </div>
+                        <!-- Service Item End -->
+                        
+                        <!-- Service Readmore Button Start -->
+                        <div class="service-readmore-btn">
+                            <a href="service-single.html"><img src="images/arrow-white.svg" alt=""></a>
+                        </div>
+                        <!-- Service Readmore Button End -->
                     </div>
-                    <!-- Service Item End -->
+                    <!-- Service List Item End -->
                 </div>
 
-            </div>
+                <div class="col-lg-4 col-md-6">
+                    <!-- Service List Item Start -->
+                    <div class="service-list-item wow fadeInUp" data-wow-delay="0.4s">
+                        <!-- Service Item Start -->
+                        <div class="service-item">
+                            <div class="icon-box">
+                                   <img src="/assets/images/icon-service-2.png" alt="">
+                            </div>
+                            <div class="service-list-content">
+                                <h3>Web design & development</h3>
+                                <p>We create visually, user-friendly websites your business.</p>
+                            </div>
+                        </div>
+                        <!-- Service Item End -->
+                        
+                        <!-- Service Readmore Button Start -->
+                        <div class="service-readmore-btn">
+                            <a href="service-single.html"><img src="images/arrow-white.svg" alt=""></a>
+                        </div>
+                        <!-- Service Readmore Button End -->
+                    </div>
+                    <!-- Service List Item End -->
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <!-- Service List Item Start -->
+                    <div class="service-list-item wow fadeInUp" data-wow-delay="0.6s">
+                        <!-- Service Item Start -->
+                        <div class="service-item">
+                            <div class="icon-box">
+                                   <img src="/assets/images/icon-service-2.png" alt="">
+                            </div>
+                            <div class="service-list-content">
+                                <h3>Website maintenance support</h3>
+                                <p>We create visually, user-friendly websites your business.</p>
+                            </div>
+                        </div>
+                        <!-- Service Item End -->
+                        
+                        <!-- Service Readmore Button Start -->
+                        <div class="service-readmore-btn">
+                            <a href="service-single.html"><img src="images/arrow-white.svg" alt=""></a>
+                        </div>
+                        <!-- Service Readmore Button End -->
+                    </div>
+                    <!-- Service List Item End -->
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <!-- Service List Item Start -->
+                    <div class="service-list-item wow fadeInUp" data-wow-delay="0.8s">
+                        <!-- Service Item Start -->
+                        <div class="service-item">
+                            <div class="icon-box">
+                                      <img src="/assets/images/icon-service-2.png" alt="">
+                            </div>
+                            <div class="service-list-content">
+                                <h3>Content management systems</h3>
+                                <p>We create visually, user-friendly websites your business.</p>
+                            </div>
+                        </div>
+                        <!-- Service Item End -->
+                        
+                        <!-- Service Readmore Button Start -->
+                        <div class="service-readmore-btn">
+                            <a href="service-single.html"><img src="images/arrow-white.svg" alt=""></a>
+                        </div>
+                        <!-- Service Readmore Button End -->
+                    </div>
+                    <!-- Service List Item End -->
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <!-- Service List Item Start -->
+                    <div class="service-list-item wow fadeInUp" data-wow-delay="1s">
+                        <!-- Service Item Start -->
+                        <div class="service-item">
+                            <div class="icon-box">
+                                <img src="/assets/images/icon-service-2.png" alt="">
+                            </div>
+                            <div class="service-list-content">
+                                <h3>Strategic Digital Growth</h3>
+                                <p>We create visually, user-friendly websites your business.</p>
+                            </div>
+                        </div>
+                        <!-- Service Item End -->
+                        
+                        <!-- Service Readmore Button Start -->
+                        <div class="service-readmore-btn">
+                            <a href="service-single.html"><img src="images/arrow-white.svg" alt=""></a>
+                        </div>
+                        <!-- Service Readmore Button End -->
+                    </div>
+                    <!-- Service List Item End -->
+                </div>
+            </div> 
         </div>
     </div>
-    <!-- Our Services Section End -->
+    <!-- Page Services End -->
+
 
   </template>
   

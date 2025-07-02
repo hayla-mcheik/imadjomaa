@@ -43,6 +43,7 @@
 
 	/* Hero Slider Layout JS */
 	const hero_slider_layout = new Swiper('.hero-slider-layout .swiper', {
+		effect: 'fade',
 		slidesPerView : 1,
 		speed: 1000,
 		spaceBetween: 0,
@@ -61,7 +62,7 @@
 		const testimonial_slider = new Swiper('.testimonial-slider .swiper', {
 			slidesPerView : 1,
 			speed: 1000,
-			spaceBetween: 30,
+			spaceBetween: 60,
 			loop: true,
 			autoplay: {
 				delay: 5000,
@@ -71,30 +72,17 @@
 				clickable: true,
 			},
 			navigation: {
-				nextEl: '.testimonial-button-next',
 				prevEl: '.testimonial-button-prev',
+				nextEl: '.testimonial-button-next',
 			},
 			breakpoints: {
 				768:{
 					slidesPerView: 2,
 				},
 				991:{
-					slidesPerView: 3,
+					slidesPerView: 2,
 				}
 			}
-		});
-	}
-
-	/* Skill Bar */
-	if ($('.skills-progress-bar').length) {
-		$('.skills-progress-bar').waypoint(function() {
-			$('.skillbar').each(function() {
-				$(this).find('.count-bar').animate({
-				width:$(this).attr('data-percent')
-				},2000);
-			});
-		},{
-			offset: '70%'
 		});
 	}
 
@@ -212,7 +200,7 @@
 	}
 
 	/* Parallaxie js */
-	/* var $parallaxie = $('.parallaxie');
+	var $parallaxie = $('.parallaxie');
 	if($parallaxie.length && ($window.width() > 991))
 	{
 		if ($window.width() > 768) {
@@ -221,7 +209,7 @@
 				offset: 0,
 			});
 		}
-	} */
+	}
 
 	/* Zoom Gallery screenshot */
 	$('.gallery-items').magnificPopup({
@@ -285,45 +273,37 @@
 	}
 	/* Contact form validation end */
 
-	/* Appointment form validation */
-	var $appointmentForm = $("#appointmentForm");
-	$appointmentForm.validator({focus: false}).on("submit", function (event) {
-		if (!event.isDefaultPrevented()) {
-			event.preventDefault();
-			submitappointmentForm();
-		}
-	});
-
-	function submitappointmentForm(){
-		/* Ajax call to submit form */
-		$.ajax({
-			type: "POST",
-			url: "form-appointment.php",
-			data: $appointmentForm.serialize(),
-			success : function(text){
-				if (text === "success"){
-					appointmentformSuccess();
-				} else {
-					appointmentsubmitMSG(false,text);
+	/* Our Project (filtering) Start */
+	$window.on( "load", function(){
+		if( $(".project-item-boxes").length ) {
+				
+			/* Init Isotope */
+			var $menuitem = $(".project-item-boxes").isotope({
+				itemSelector: ".project-item-box",
+				layoutMode: "masonry",
+				masonry: {
+					// use outer width of grid-sizer for columnWidth
+					columnWidth: 1,
 				}
-			}
-		});
-	}
-
-	function appointmentformSuccess(){
-		$appointmentForm[0].reset();
-		appointmentsubmitMSG(true, "Message Sent Successfully!")
-	}
-
-	function appointmentsubmitMSG(valid, msg){
-		if(valid){
-			var msgClasses = "h3 text-success";
-		} else {
-			var msgClasses = "h3 text-danger";
-		}
-		$("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
-	}
-	/* Appointment form validation end */
+			});
+				
+			/* Filter items on click */
+			var $menudisesnav=$(".our-Project-nav li a");
+				$menudisesnav.on('click', function (e) { 
+			
+				var filterValue = $(this).attr('data-filter');
+				$menuitem.isotope({
+					filter: filterValue
+				}); 
+				
+				$menudisesnav.removeClass("active-btn"); 
+				$(this).addClass("active-btn");
+				e.preventDefault();
+			});		
+			$menuitem.isotope({ filter: "*" });
+		}			
+	});
+	/* Our Project (filtering) End */
 
 	/* Animated Wow Js */	
 	new WOW().init();
@@ -338,5 +318,5 @@
 			fixedContentPos: true
 		});
 	}
-	
+
 })(jQuery);

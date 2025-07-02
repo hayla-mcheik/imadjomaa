@@ -2,11 +2,8 @@
     <GuestLayout>
 <Breadcrumbs />
 <About />
-<OurApproch />
-<OurJourney />
-<Team />
-<Appointment />
-<QA />
+<Whatwedo />
+<Whywechoose />
     </GuestLayout>
 </template>
 
@@ -20,6 +17,8 @@
   import QA from '@/Components/QA.vue';
 import GuestLayout from '@/Layouts/GuestLayout.vue'
   import { Link } from '@inertiajs/vue3';
+import Whatwedo from '@/Components/Whatwedo.vue';
+import Whywechoose from '@/Components/Whywechoose.vue';
 </script>
 
 <style scoped>

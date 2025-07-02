@@ -1,16 +1,114 @@
+<template>
+  <!-- Top Bar Start -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-container">
+        <div class="top-bar-left">
+          <div class="top-bar-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Beirut, Lebanon</span>
+          </div>
+          <div class="top-bar-item">
+            <i class="fas fa-envelope"></i>
+            <span>info@promo-fix.com</span>
+          </div>
+          <div class="top-bar-item">
+            <i class="fas fa-clock"></i>
+            <span>Mon-Fri: 9AM - 5PM</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Top Bar End -->
+
+  <!-- Header Start -->
+  <header class="main-header">
+    <nav class="navbar">
+      <div class="container">
+        <!-- Logo -->
+        <Link class="navbar-brand" href="/">
+          <img src="/assets/images/logo.png" class="logo" alt="Logo">
+        </Link>
+
+        <!-- Burger Button -->
+        <button class="menu-toggle" @click="toggleDrawer">
+          <div class="menu-icon">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Drawer with Centered Menu -->
+    <div class="drawer" :class="{ open: drawerOpen }">
+      <div class="drawer-inner">
+        <button class="close-btn" @click="toggleDrawer">
+          <i class="fas fa-times"></i>
+        </button>
+        
+        <!-- Centered Menu -->
+        <div class="centered-menu">
+          <ul class="nav-menu">
+            <li><Link class="nav-link" href="/" @click="toggleDrawer">Home</Link></li>
+            <li><Link class="nav-link" href="/about" @click="toggleDrawer">About Us</Link></li>
+            <li><Link class="nav-link" href="/projects" @click="toggleDrawer">Our Projects</Link></li>
+            <li><Link class="nav-link" href="/news" @click="toggleDrawer">Press Kit</Link></li>
+            <li><Link class="nav-link" href="/events" @click="toggleDrawer">Events</Link></li>
+            <li><Link class="nav-link" href="/contact" @click="toggleDrawer">Contact Us</Link></li>
+          </ul>
+          
+          <div class="drawer-footer">
+            <div class="contact-info">
+              <a href="tel:+96170003161" class="contact-link">
+                <i class="fas fa-phone"></i> +961 78 913 139
+              </a>
+              <a href="mailto:info@promo-fix.com" class="contact-link">
+                <i class="fas fa-envelope"></i> info@promo-fix.com
+              </a>
+            </div>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=100091064031710" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.instagram.com/dr.mohamad_obeid/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Overlay -->
+    <div class="overlay" :class="{ open: drawerOpen }" @click="toggleDrawer"></div>
+  </header>
+  <!-- Header End -->
+</template>
+
 <script setup>
 import { Link } from '@inertiajs/vue3'
-import { ref } from 'vue'
-import { onMounted } from 'vue'
+import { ref, onMounted } from 'vue'
 
 const drawerOpen = ref(false)
 
 const toggleDrawer = () => {
   drawerOpen.value = !drawerOpen.value
+  if (drawerOpen.value) {
+    document.body.style.overflow = 'hidden';
+  } else {
+    document.body.style.overflow = '';
+  }
 }
 
 onMounted(() => {
-  const navbar = document.querySelector('.navbar-container')
+  const navbar = document.querySelector('.navbar')
   window.addEventListener('scroll', () => {
     if (window.scrollY > 10) {
       navbar.classList.add('scrolled')
@@ -18,445 +116,335 @@ onMounted(() => {
       navbar.classList.remove('scrolled')
     }
   })
-  
-  // Close drawer when clicking on links
-  const navLinks = document.querySelectorAll('.mobile-nav-link, .mobile-appointment-btn')
-  navLinks.forEach(link => {
-    link.addEventListener('click', () => {
-      drawerOpen.value = false
-    })
-  })
 })
 </script>
 
-<template>
-      <!-- Top Bar Start -->
-    <div class="top-bar d-none d-md-flex">
-        <div class="container">
-            <div class="top-bar-container">
-                <div class="top-bar-left">
-                    <div class="top-bar-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>Beirut, Lebanon</span>
-                    </div>
-                    <div class="top-bar-item">
-                        <i class="fas fa-envelope"></i>
-                        <span>info@clinic.com</span>
-                    </div>
-                    <div class="top-bar-item d-none d-md-flex">
-                        <i class="fas fa-clock"></i>
-                        <span>Mon-Fri: 8AM - 6PM</span>
-                    </div>
-                </div>
-         <div class="top-bar-right">
-    <a href="https://www.facebook.com/profile.php?id=100091064031710" class="social-icon" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-facebook-f"></i>
-    </a>
-    <a href="https://www.instagram.com/dr.mohamad_obeid/" class="social-icon" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-instagram"></i>
-    </a>
-    <a href="#" class="social-icon" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-linkedin-in"></i>
-    </a>
-</div>
-
-            </div>
-        </div>
-    </div>
-    <!-- Top Bar End -->
-    <!-- Header Start -->
-	<header class="main-header navbar-container">
-		<div class="header-sticky bg-section">
-			<nav class="navbar navbar-expand-lg">
-				<div class="container-fluid">
-					<!-- Logo Start -->
-					<Link class="navbar-brand" href="/">
-						<img src="/assets/images/logo.png" class="w-[100%]" alt="Logo">
-					</Link> 
-					<!-- Logo End -->
-
-					<!-- Burger Menu Button (Mobile Only) -->
-					<button class="burger-btn d-lg-none" @click="toggleDrawer">
-						<span class="burger-line"></span>
-						<span class="burger-line"></span>
-						<span class="burger-line"></span>
-					</button>
-
-					<!-- Main Menu Start (Desktop Only) -->
-					<div class="collapse navbar-collapse main-menu d-none d-lg-flex">
-                        <div class="nav-menu-wrapper d-flex justify-center">
-                            <ul class="navbar-nav " id="menu">
-                                <li class="nav-item"><Link class="nav-link" href="/">Home</Link> </li>                                
-                                <li class="nav-item"><Link class="nav-link" href="/about">About Us</Link> </li>
-                                <li class="nav-item"><Link class="nav-link" href="/services">Services</Link> </li>
-                                <li class="nav-item"><Link class="nav-link" href="/image-gallery">Image Gallery</Link> </li>
-                                <li class="nav-item"><Link class="nav-link" href="/video-gallery">Video Gallery</Link> </li>                         
-                                <li class="nav-item"><Link class="nav-link" href="/contact">Contact Us</Link> </li>                         
-                                <li class="nav-item highlighted-menu"><Link class="nav-link" href="/book-appointment">Make an Appointment</Link> </li>                         
-                            </ul>
-                        </div>
-                        
-                        <!-- Header Contact Btn Start -->
-          <div class="header-contact-btn">   
-    <a href="tel:+96170003161" class="header-contact-now" aria-label="Call +96170003161">
-        <img src="/assets/images/call.svg" alt="Call Icon" class="call-icon" />
-        <div class="d-block">
-  <span class="phone-number">+96170003161</span>
-  <br/>
-            <span class="hotline-text">Hotline 24/7</span>
-        </div>
-      
-    </a> 
-
-</div>
-
-                        <!-- Header Contact Btn End -->
-					</div>
-					<!-- Main Menu End -->
-				</div>
-			</nav>
-
-      <!-- Mobile Drawer/Sidebar -->
-      <transition name="drawer">
-        <div v-if="drawerOpen" class="mobile-drawer">
-          <button class="close-btn" @click="toggleDrawer">
-            <span>&times;</span>
-          </button>
-          
-          <div class="mobile-menu-content">
-            <ul class="mobile-nav">
-              <li><Link class="mobile-nav-link" href="/">Home</Link> </li>
-              <li><Link class="mobile-nav-link" href="/about">About Us</Link> </li>
-              <li><Link class="mobile-nav-link" href="/services">Services</Link> </li>
-              <li><Link class="mobile-nav-link" href="/image-gallery">Image Gallery</Link> </li>
-              <li><Link class="mobile-nav-link" href="/video-gallery">Video Gallery</Link> </li>
-              <li><Link class="mobile-nav-link" href="/contact">Contact Us</Link> </li>
-              <li>
-                <a href="tel:+96170003161" class="mobile-contact">
-                  <i class="fa-solid fa-phone"></i>+96170003161
-                </a> 
-              </li>
-              <li>
-                <Link href="/book-appointment" class="mobile-appointment-btn">
-                  Make an Appointment
-                </Link> 
-              </li>
-            </ul>
-          </div>
-        </div>
-      </transition>
-      
-      <!-- Drawer Overlay -->
-      <transition name="overlay">
-        <div 
-          v-if="drawerOpen" 
-          class="drawer-overlay" 
-          @click="toggleDrawer"
-        ></div>
-      </transition>
-		</div>
-	</header>
-	<!-- Header End -->
-</template>
-
 <style scoped>
-/* Top bar styles */
+/* Top Bar Styles */
 .top-bar {
-    background: #000;
-    color: white;
-    padding: 12px 0;
-    font-size: 14px;
+  background: #000;
+  color: white;
+  padding: 12px 0;
+  font-size: 14px;
 }
 
 .top-bar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .top-bar-left {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .top-bar-item {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .top-bar-item i {
-    color:linear-gradient(to right, var(--back-color), var(--secondary-color));
+  color: red;
 }
 
 .top-bar-right {
-    display: flex;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
 }
 
 .social-icon {
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.15);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  color: white;
 }
 
 .social-icon:hover {
-    background: var(--divider-color);
-    transform: translateY(-2px);
+  background: red;
+  transform: translateY(-2px);
 }
 
-.header-contact-btn{
-  visibility: visible;
+/* Navbar Styles */
+.main-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
-/* Mobile Drawer Styles */
-.mobile-drawer {
+
+.navbar {
+  background: white;
+  padding: 15px 0;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.scrolled {
+  padding: 10px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.logo {
+  height: 50px;
+  transition: all 0.3s ease;
+}
+
+/* Menu Toggle Button */
+.menu-toggle {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.bar {
+  height: 3px;
+  background: #1a1a1a;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.menu-toggle:hover .bar {
+  background: red;
+}
+
+/* Drawer Styles */
+.drawer {
   position: fixed;
   top: 0;
-  right: 0;
-  width: 85%;
-  max-width: 320px;
+  right: -100%;
+  width: 100%;
   height: 100vh;
   background: white;
-  z-index: 1001;
-  box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
-  overflow-y: auto;
-  padding: 20px;
+  z-index: 1050;
+  transition: right 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  box-shadow: -5px 0 25px rgba(0, 0, 0, 0.1);
 }
 
-.drawer-overlay {
+.drawer.open {
+  right: 0;
+}
+
+.drawer-inner {
+  position: relative;
+  height: 100%;
+  padding: 30px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  color: #1a1a1a;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-btn:hover {
+  color: red;
+}
+
+/* Centered Menu */
+.centered-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.nav-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 50px;
+  width: 100%;
+}
+
+.nav-menu li {
+  margin-bottom: 30px;
+}
+
+.nav-link {
+  color: #1a1a1a;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+  padding: 10px 0;
+  display: inline-block;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg, red, #000);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 60px;
+}
+
+/* Drawer Footer */
+.drawer-footer {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  padding: 0 30px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #4a5568;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: red;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #f3f4f6;
+  color: #4a5568;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  background: linear-gradient(135deg, red, #000);
+  color: white;
+  transform: translateY(-3px);
+}
+
+/* Overlay */
+.overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--divider-color);
-  z-index: 1000;
-}
-
-.close-btn {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  font-size: 28px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: #333;
-  z-index: 1002;
-}
-
-.mobile-menu-content {
-  margin-top: 40px;
-}
-
-.mobile-nav {
-  list-style: none;
-  padding: 0;
-}
-
-.mobile-nav li {
-  margin-bottom: 15px;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 15px;
-}
-
-.mobile-nav li:last-child {
-  border-bottom: none;
-}
-
-.mobile-nav-link {
-  color: #000;
-  text-decoration: none;
-  font-size: 18px;
-  display: block;
-  transition: color 0.3s;
-  font-weight: 600;
-}
-
-.mobile-nav-link:hover {
-  color: var(--back-color);
-}
-.nav-link:hover{
-  color: var(--back-color);
-}
-.mobile-contact {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: #000;
-  text-decoration: none;
-  font-size: 16px;
-  padding: 10px 0;
-}
-
-.mobile-appointment-btn {
-  display: block;
-  background-color: var(--divider-color);
-  color: white;
-  text-align: center;
-  padding: 12px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: 600;
-  margin-top: 20px;
-  transition: background-color 0.3s;
-}
-
-.mobile-appointment-btn:hover {
-  background-color: var(--divider-color);
-}
-
-
-    
-/* Burger Button Styles */
-.burger-btn {
-        display: flex
-;
-        margin-left: 30px;
-        flex-direction: column;
-        align-items: end;
-        visibility: visible;
-        justify-content: center;
-        position: relative;
-}
-
-
-
-.burger-line {
-        display: flex
-;
-        margin-left: 30px;
-        flex-direction: column;
-        align-items: end;
-        visibility: visible;
-        justify-content: center;
-        position: relative;
-            height: 1px;
-    width: 25px;
-    background-color:#000;
-    display: flex;
-    transition: transform 0.5s ease-in;
-    position: absolute;
-    top: 0px;
-}
-.burger-line::before{
-    transition-duration: 0.5s;
-    position: absolute;
-    width: 35px;
-    height: 3px;
-    background-color: #000;
-    content: "";
-    top: -10px;
-    right: 0;
-}
-.burger-line::after{
-    transition-duration: 0.5s;
-    position: absolute;
-    width: 15px;
-    height: 3px;
-    right: 0;
-    background-color: #000;
-    content: "";
-    top: 10px;
-}
-
-
-
-/* Drawer Animations */
-.drawer-enter-active, .drawer-leave-active {
-  transition: transform 0.4s ease;
-}
-
-.drawer-enter-from, .drawer-leave-to {
-  transform: translateX(100%);
-}
-
-.overlay-enter-active, .overlay-leave-active {
-  transition: opacity 0.3s ease;
-}
-
-.overlay-enter-from, .overlay-leave-to {
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1040;
   opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
 }
 
-/* Hide desktop menu on mobile */
-@media (max-width: 991.98px) {
-  .main-menu {
-    display: none !important;
-  }
-}
-
-/* Show burger button only on mobile */
-@media (min-width: 992px) {
-  .burger-btn {
-    display: none;
-  }
-}
-
-/* Existing styles remain unchanged below */
-.navbar .navbar-nav .nav-link {
+.overlay.open {
+  opacity: 1;
   visibility: visible;
 }
-.text-secondary {
-  color: var(--divider-color);
-}
 
-.navbar-container {
-  position: sticky;
-  top: 0;
-  z-index: 1020;
-  background-color: white;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Custom navbar toggler icon */
-.navbar-dark .navbar-toggler-icon {
-    background-image: none;
-    position: relative;
-    width: 24px;
-    height: 24px;
-    display: flex;
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .top-bar-container {
     flex-direction: column;
+    gap: 10px;
+  }
+  
+  .top-bar-left, .top-bar-right {
+    width: 100%;
     justify-content: center;
-    align-items: flex-end;
-    transition: all 0.3s ease;
-    filter: brightness(0.5);
-    border: none;
+  }
+  
+  .top-bar-item {
+    font-size: 12px;
+  }
+  
+  .nav-link {
+    font-size: 20px;
+  }
+  
+  .drawer {
+    max-width: 100%;
+  }
 }
 
-.navbar-dark .navbar-toggler-icon::before,
-.navbar-dark .navbar-toggler-icon::after {
-    content: '';
-    display: block;
-    height: 2px;
-    background-color: #000;
-    transition: all 0.3s ease;
-}
-
-.navbar-dark .navbar-toggler-icon::before {
-    width: 24px;
-    margin-bottom: 6px;
-    transform-origin: left;
-}
-
-.navbar-dark .navbar-toggler-icon span {
-    display: block;
-    width: 20px;
-    height: 2px;
-    background-color: #000;
-    margin-bottom: 6px;
-    transition: all 0.3s ease;
-    opacity: 1;
-}
-
-.navbar-dark .navbar-toggler-icon::after {
-    width: 16px;
+@media (max-width: 480px) {
+  .logo {
+    height: 40px;
+  }
+  
+  .top-bar-left {
+    gap: 15px;
+  }
+  
+  .nav-link {
+    font-size: 18px;
+  }
 }
 </style>

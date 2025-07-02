@@ -3,7 +3,9 @@ import { onMounted, onUpdated } from 'vue';
 import { initCarousels } from 'flowbite';
 import GuestLayout from '@/Layouts/GuestLayout.vue'
 import HeroSlider from '@/Components/HeroSlider.vue'
+import InfiniteText from '@/Components/InfiniteText.vue'
 import About from '@/Components/About.vue'
+import Events from '@/Components/Events.vue'
 import Services from '@/Components/Services.vue'
 import Whatwedo from '@/Components/Whatwedo.vue';
 // import IntroVideo from '@/Components/IntroVideo.vue'
@@ -11,10 +13,12 @@ import CaseStudy from '@/Components/CaseStudy.vue'
 import Whywechoose from '@/Components/Whywechoose.vue'
 import Howitworks from '@/Components/Howitworks.vue'
 import Testimonials from '@/Components/Testimonials.vue'
-import Results from '@/Components/Results.vue'
-import Appointment from '@/Components/Appointment.vue'
+
 import IntroVideo from '@/Components/IntroVideo.vue';
 import QA from '@/Components/QA.vue';
+import Projects from '@/Components/Projects.vue';
+import News from '@/Components/News.vue';
+import Brand from '@/Components/Brand.vue';
 // Initialize carousel when component mounts or updates
 const initializeCarousel = () => {
   // Ensure we're in the browser environment
@@ -39,15 +43,15 @@ onUpdated(() => {
 <!-- Carousel -->
 
 <HeroSlider />
+<InfiniteText />
 <About />
   <IntroVideo /> 
- <Services /> 
+  <Projects />
+   <!-- <Services />  -->
+<Events />
+<News />
+<Brand />
 
- <Results />
-  <Testimonials /> 
-<QA />
-
-<Appointment />
 </GuestLayout>
 </template>
 

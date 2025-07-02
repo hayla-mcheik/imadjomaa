@@ -10,7 +10,7 @@
                         <div class="intro-bg-video">
                             <!-- Selfhosted Video Start -->
                             <!-- <video autoplay muted loop id="introVideo"><source src="images/restraint-video.mp4" type="video/mp4"></video> -->
-                            <video autoplay="" muted="" loop="" id="introVideo"><source src="/assets/videos/glowix-video.mp4" type="video/mp4"></video>
+                            <video autoplay="" muted="" loop="" id="introVideo" class="w-100"><source src="/assets/images/hero-video.mp4" type="video/mp4" class="w-[100%]"></video>
                             <!-- Selfhosted Video End -->
 
                             <!-- Youtube Video Start -->

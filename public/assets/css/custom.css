@@ -929,9 +929,7 @@ body:has(.offcanvas){
 	position: relative;
 	padding: 100px 0 120px;
 }
-.max-w-8xl{
-  max-width: 90%;
-}
+
 .hero::before{
 	content: '';
 	position: absolute;
@@ -7667,6 +7665,12 @@ body:has(.offcanvas){
 	.error-page-content-body p{
 		margin-bottom: 20px;
 	}
+}
+
+@media only screen and (min-width: 767px){
+	.pl-md-250px{
+margin-left:250px;
+}
 }
 
 @media only screen and (max-width: 767px){

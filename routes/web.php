@@ -24,6 +24,7 @@ Route::get('/about','about')->name('about.index');
 Route::get('/contact','contact')->name('contact.index');
 Route::get('/services','services')->name('services.index');
 Route::get('/projects','projects')->name('projects.index');
+Route::get('/project-details','projectdetails')->name('projectdetails.index');
 Route::get('/news','news')->name('news.index');
 Route::get('/events','events')->name('events.index');
 });

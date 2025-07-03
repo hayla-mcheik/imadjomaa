@@ -9,9 +9,13 @@ import Footer from '@/components/Footer.vue'
     <div >
 <Navbar />
 
-        <div >
+        <div class="pl-md-250px">
             <slot />
         </div>
         <Footer />
     </div>
 </template>
+
+<style scope>
+
+</style>

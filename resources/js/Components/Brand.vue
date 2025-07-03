@@ -1,5 +1,5 @@
 <template>
-  <div class="brands-section relative py-20 overflow-hidden bg-gradient-to-br from-gray-900 to-black">
+  <div class="brands-section relative py-20 overflow-hidden bg-gradient-to-br from-gray-900 to-black d-none d-md-flex">
     <!-- Background Elements -->
     <div class="absolute inset-0 z-0">
       <div class="absolute top-1/4 left-1/4 w-64 h-64 bg-red-800 rounded-full mix-blend-multiply filter blur-[100px] opacity-10"></div>

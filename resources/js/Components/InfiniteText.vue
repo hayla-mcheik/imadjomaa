@@ -4,29 +4,28 @@
         <!-- Scrolling Ticker Start -->
         <div class="scrolling-ticker-box">
             <div class="scrolling-content">
-                <span><img src="images/asterisk-icon.svg" alt="">Cloud Solutions</span>
-                <span><img src="images/asterisk-icon.svg" alt="">IT Consulting</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Technology Strategy</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Business Solutions</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Analytics & Reporting</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Cloud Solutions</span>
-                <span><img src="images/asterisk-icon.svg" alt="">IT Consulting</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Technology Strategy</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Business Solutions</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Analytics & Reporting</span>
-            </div>
-
+                <span><img src="/assets/images/promomedia-logo-black.png" alt=""></span>
+                <span><img src="/assets/images/Amazon ADS.png" alt=""></span>
+                <span><img src="/assets/images/promomedia-logo-black.png" alt=""></span>
+                <span><img src="/assets/images/promomedia-logo-black.png" alt=""></span>
+                <span><img src="/assets/images/promomedia-logo-black.png" alt=""></span>
+                <span><img src="/assets/images/promomedia-logo-black.png" alt=""></span>
+                <span><img src="/assets/images/promomedia-logo-black.png" alt=""></span>
+                <span><img src="/assets/images/promomedia-logo-black.png" alt=""></span>
+                <span><img src="/assets/images/promomedia-logo-black.png" alt=""></span>
+                <span><img src="/assets/images/promomedia-logo-black.png" alt=""></span>
+</div>
             <div class="scrolling-content">
-                <span><img src="images/asterisk-icon.svg" alt="">Cloud Solutions</span>
-                <span><img src="images/asterisk-icon.svg" alt="">IT Consulting</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Technology Strategy</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Business Solutions</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Analytics & Reporting</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Cloud Solutions</span>
-                <span><img src="images/asterisk-icon.svg" alt="">IT Consulting</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Technology Strategy</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Business Solutions</span>
-                <span><img src="images/asterisk-icon.svg" alt="">Analytics & Reporting</span>
+                         <span><img src="/assets/images/promomedia-logo-black.png" alt=""></span>
+                <span><img src="/assets/images/promomedia-logo-black.png" alt=""></span>
+                <span><img src="/assets/images/promomedia-logo-black.png" alt=""></span>
+                <span><img src="/assets/images/promomedia-logo-black.png" alt=""></span>
+                <span><img src="/assets/images/promomedia-logo-black.png" alt=""></span>
+                <span><img src="/assets/images/promomedia-logo-black.png" alt=""></span>
+                <span><img src="/assets/images/promomedia-logo-black.png" alt=""></span>
+                <span><img src="/assets/images/promomedia-logo-black.png" alt=""></span>
+                <span><img src="/assets/images/promomedia-logo-black.png" alt=""></span>
+                <span><img src="/assets/images/promomedia-logo-black.png" alt=""></span>
             </div>
         </div>
         <!-- Scrolling Ticker End -->
@@ -74,7 +73,7 @@
 
 .scrolling-content span img{
 	width: 100%;
-	max-width: 24px;
+	max-width: 100px;
 	margin-right: 40px;
 }
 

@@ -21,193 +21,109 @@
                     <!-- Project Item Boxes start -->
 					<div class="row project-item-boxes align-items-center wow fadeInUp">
 						<div class="col-lg-4 col-md-6 project-item-box brand content social">
-                            <!-- Project Item Start -->
-                            <div class="project-item">
-                                <div class="project-image">
-                                    <a href="project-single.html" data-cursor-text="View">
-                                        <figure class="image-anime">
-                                            <img src="/assets/images/project-1.jpg" alt="">
-                                        </figure>
-                                    </a>
-                                </div>
-                            <div class="project-item-body">
-                            <div class="project-item-content">
-                                <h4 class="text-white text-xl mb-1">Web design</h4>
-                                <p><a href="project-single.html" class="text-sm text-white">Innovative Web Design for Modern Businesses</a></p>
-                            </div>
-                       
-                        </div>
-                            </div>
-                            <!-- Project Item End -->
+              <div class="project-item group bg-gray-800/50 backdrop-blur-sm rounded-2xl overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-red-500/20">
+          <div class="project-image relative overflow-hidden">
+            <div class="aspect-w-16 aspect-h-10">
+              <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" 
+                   alt="Modern web design" 
+                   class="w-full h-64 object-cover transition-all duration-700 group-hover:scale-110">
+            </div>
+          </div>
+          
+          <div class="project-content p-6">
+            <div class="flex justify-between items-start mb-4">
+              <div class="project-category">
+                <span class="inline-block px-3 py-1 bg-gradient-to-r from-red-500 to-rose-500 text-white text-xs font-semibold rounded-full">
+                  Web Design
+                </span>
+              </div>
+            </div>
+            
+            <h3 class="project-title text-xl font-bold text-white mb-3">Innovative E-commerce Platform</h3>
+            <p class="text-gray-400 text-sm mb-4">A modern shopping experience with seamless checkout and personalized recommendations.</p>
+            
+          </div>
+        </div>
                         </div>
 
                         <div class="col-lg-4 col-md-6 project-item-box brand uiux urban wow fadeInUp" data-wow-delay="0.2s">
-                            <!-- Project Item Start -->
-                            <div class="project-item">
-                                <div class="project-image">
-                                    <a href="project-single.html" data-cursor-text="View">
-                                        <figure class="image-anime">
-                                            <img src="/assets/images/project-2.jpg" alt="">
-                                        </figure>
-                                    </a>
-                                </div>
-                            <div class="project-item-body">
-                            <div class="project-item-content">
-                                <h4 class="text-white text-xl mb-1">Web design</h4>
-                                <p><a href="project-single.html" class="text-sm text-white">Innovative Web Design for Modern Businesses</a></p>
-                            </div>
-                       
-                        </div>
-                            </div>
-                            <!-- Project Item End -->
+                     <div class="project-item group bg-gray-800/50 backdrop-blur-sm rounded-2xl overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-red-500/20">
+          <div class="project-image relative overflow-hidden">
+            <div class="aspect-w-16 aspect-h-10">
+              <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" 
+                   alt="Modern web design" 
+                   class="w-full h-64 object-cover transition-all duration-700 group-hover:scale-110">
+            </div>
+          </div>
+          
+          <div class="project-content p-6">
+            <div class="flex justify-between items-start mb-4">
+              <div class="project-category">
+                <span class="inline-block px-3 py-1 bg-gradient-to-r from-red-500 to-rose-500 text-white text-xs font-semibold rounded-full">
+                  Web Design
+                </span>
+              </div>
+            </div>
+            
+            <h3 class="project-title text-xl font-bold text-white mb-3">Innovative E-commerce Platform</h3>
+            <p class="text-gray-400 text-sm mb-4">A modern shopping experience with seamless checkout and personalized recommendations.</p>
+            
+          </div>
+        </div>
                         </div>
 
                         <div class="col-lg-4 col-md-6 project-item-box uiux brand social wow fadeInUp" data-wow-delay="0.4s">
-                            <!-- Project Item Start -->
-                            <div class="project-item">
-                                <div class="project-image">
-                                    <a href="project-single.html" data-cursor-text="View">
-                                        <figure class="image-anime">
-                                            <img src="/assets/images/project-3.jpg" alt="">
-                                        </figure>
-                                    </a>
-                                </div>
-                         <div class="project-item-body">
-                            <div class="project-item-content">
-                                <h4 class="text-white text-xl mb-1">Web design</h4>
-                                <p><a href="project-single.html" class="text-sm text-white">Innovative Web Design for Modern Businesses</a></p>
-                            </div>
-                       
-                        </div>
-                            </div>
-                            <!-- Project Item End -->
+                       <div class="project-item group bg-gray-800/50 backdrop-blur-sm rounded-2xl overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-red-500/20">
+          <div class="project-image relative overflow-hidden">
+            <div class="aspect-w-16 aspect-h-10">
+              <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" 
+                   alt="Modern web design" 
+                   class="w-full h-64 object-cover transition-all duration-700 group-hover:scale-110">
+            </div>
+          </div>
+          
+          <div class="project-content p-6">
+            <div class="flex justify-between items-start mb-4">
+              <div class="project-category">
+                <span class="inline-block px-3 py-1 bg-gradient-to-r from-red-500 to-rose-500 text-white text-xs font-semibold rounded-full">
+                  Web Design
+                </span>
+              </div>
+            </div>
+            
+            <h3 class="project-title text-xl font-bold text-white mb-3">Innovative E-commerce Platform</h3>
+            <p class="text-gray-400 text-sm mb-4">A modern shopping experience with seamless checkout and personalized recommendations.</p>
+            
+          </div>
+        </div>
                         </div>
 
                         <div class="col-lg-4 col-md-6 project-item-box content social urban wow fadeInUp" data-wow-delay="0.6s">
-                            <!-- Project Item Start -->
-                            <div class="project-item">
-                                <div class="project-image">
-                                    <a href="project-single.html" data-cursor-text="View">
-                                        <figure class="image-anime">
-                                            <img src="/assets/images/project-4.jpg" alt="">
-                                        </figure>
-                                    </a>
-                                </div>
-                          <div class="project-item-body">
-                            <div class="project-item-content">
-                                <h4 class="text-white text-xl mb-1">Web design</h4>
-                                <p><a href="project-single.html" class="text-sm text-white">Innovative Web Design for Modern Businesses</a></p>
-                            </div>
-                       
-                        </div>
-                            </div>
-                            <!-- Project Item End -->
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 project-item-box content uiux urban wow fadeInUp" data-wow-delay="0.8s">
-                            <!-- Project Item Start -->
-                            <div class="project-item">
-                                <div class="project-image">
-                                    <a href="project-single.html" data-cursor-text="View">
-                                        <figure class="image-anime">
-                                            <img src="/assets/images/project-5.jpg" alt="">
-                                        </figure>
-                                    </a>
-                                </div>
-                           <div class="project-item-body">
-                            <div class="project-item-content">
-                                <h4 class="text-white text-xl mb-1">Web design</h4>
-                                <p><a href="project-single.html" class="text-sm text-white">Innovative Web Design for Modern Businesses</a></p>
-                            </div>
-                       
-                        </div>
-                            </div>
-                            <!-- Project Item End -->
+                       <div class="project-item group bg-gray-800/50 backdrop-blur-sm rounded-2xl overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-red-500/20">
+          <div class="project-image relative overflow-hidden">
+            <div class="aspect-w-16 aspect-h-10">
+              <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" 
+                   alt="Modern web design" 
+                   class="w-full h-64 object-cover transition-all duration-700 group-hover:scale-110">
+            </div>
+          </div>
+          
+          <div class="project-content p-6">
+            <div class="flex justify-between items-start mb-4">
+              <div class="project-category">
+                <span class="inline-block px-3 py-1 bg-gradient-to-r from-red-500 to-rose-500 text-white text-xs font-semibold rounded-full">
+                  Web Design
+                </span>
+              </div>
+            </div>
+            
+            <h3 class="project-title text-xl font-bold text-white mb-3">Innovative E-commerce Platform</h3>
+            <p class="text-gray-400 text-sm mb-4">A modern shopping experience with seamless checkout and personalized recommendations.</p>
+            
+          </div>
+        </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 project-item-box brand social urban wow fadeInUp" data-wow-delay="1s">
-                            <!-- Project Item Start -->
-                            <div class="project-item">
-                                <div class="project-image">
-                                    <a href="project-single.html" data-cursor-text="View">
-                                        <figure class="image-anime">
-                                            <img src="/assets/images/project-6.jpg" alt="">
-                                        </figure>
-                                    </a>
-                                </div>
-                            <div class="project-item-body">
-                            <div class="project-item-content">
-                                <h4 class="text-white text-xl mb-1">Web design</h4>
-                                <p><a href="project-single.html" class="text-sm text-white">Innovative Web Design for Modern Businesses</a></p>
-                            </div>
-                       
-                        </div>
-                            </div>
-                            <!-- Project Item End -->
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 project-item-box content uiux urban wow fadeInUp" data-wow-delay="1.2s">
-                            <!-- Project Item Start -->
-                            <div class="project-item">
-                                <div class="project-image">
-                                    <a href="project-single.html" data-cursor-text="View">
-                                        <figure class="image-anime">
-                                            <img src="/assets/images/project-7.jpg" alt="">
-                                        </figure>
-                                    </a>
-                                </div>
-                               <div class="project-item-body">
-                            <div class="project-item-content">
-                                <h4 class="text-white text-xl mb-1">Web design</h4>
-                                <p><a href="project-single.html" class="text-sm text-white">Innovative Web Design for Modern Businesses</a></p>
-                            </div>
-                       
-                        </div>
-                            </div>
-                            <!-- Project Item End -->
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 project-item-box content uiux urban wow fadeInUp" data-wow-delay="1.4s">
-                            <!-- Project Item Start -->
-                            <div class="project-item">
-                                <div class="project-image">
-                                    <a href="project-single.html" data-cursor-text="View">
-                                        <figure class="image-anime">
-                                            <img src="/assets/images/project-8.jpg" alt="">
-                                        </figure>
-                                    </a>
-                                </div>
-                                    <div class="project-item-body">
-                            <div class="project-item-content">
-                                <h4 class="text-white text-xl mb-1">Web design</h4>
-                                <p><a href="project-single.html" class="text-sm text-white">Innovative Web Design for Modern Businesses</a></p>
-                            </div>
-                       
-                        </div>
-                            </div>
-                            <!-- Project Item End -->
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 project-item-box uiux social wow fadeInUp" data-wow-delay="1.6s">
-                            <!-- Project Item Start -->
-                            <div class="project-item">
-                                <div class="project-image">
-                                    <a href="project-single.html" data-cursor-text="View">
-                                        <figure class="image-anime">
-                                            <img src="/assets/images/project-9.jpg" alt="">
-                                        </figure>
-                                    </a>
-                                </div>
-                    <div class="project-item-body">
-                            <div class="project-item-content">
-                                <h4 class="text-white text-xl mb-1">Web design</h4>
-                                <p><a href="project-single.html" class="text-sm text-white">Innovative Web Design for Modern Businesses</a></p>
-                            </div>
-                       
-                        </div>
-                            </div>
-                            <!-- Project Item End -->
-                        </div>
                     </div>
                     <!-- Project Item Boxes End -->
                 </div>

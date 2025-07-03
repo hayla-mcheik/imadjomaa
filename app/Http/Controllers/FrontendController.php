@@ -27,6 +27,15 @@ class FrontendController extends Controller
             'title' => 'Projects'
         ]);
     }
+        public function projectdetails()
+    {
+        return Inertia::render('Frontend/ProjectsDetails', [
+            'title' => 'Projects Details'
+        ]);
+    }
+
+
+    
 
     public function events()
     {

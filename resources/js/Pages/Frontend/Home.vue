@@ -20,6 +20,7 @@ import Projects from '@/Components/Projects.vue';
 import News from '@/Components/News.vue';
 import Brand from '@/Components/Brand.vue';
 import Map from '@/Components/Map.vue';
+import Milestone from '@/Components/Milestone.vue';
 // Initialize carousel when component mounts or updates
 const initializeCarousel = () => {
   // Ensure we're in the browser environment
@@ -49,6 +50,7 @@ onUpdated(() => {
   <!-- <IntroVideo />  -->
   <Projects />
    <!-- <Services />  -->
+    <Milestone />
 <Events />
 <News />
 <Brand />

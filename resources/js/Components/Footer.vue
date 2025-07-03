@@ -3,11 +3,11 @@
                             <Link href="" class="btn-default">Chat on Whatsapp</Link> 
                         </div> -->
     <!-- Footer Start -->
-    <footer class="main-footer">
+    <footer class="main-footer pl-md-250px">
 
         <!-- Footer Main Start -->
 		<div class="footer-main">
-			<div class="container">
+			<div class="container max-w-8xl">
 				<div class="row">
                     <div class="col-lg-4">
                         <!-- About Footer Start -->
@@ -148,5 +148,8 @@ import {Link} from '@inertiajs/vue3';
     bottom: 1%;
     right:0%;
     z-index: 999;
+}
+.max-w-8xl{
+    max-width: 90%;
 }
 </style>

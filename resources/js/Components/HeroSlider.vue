@@ -23,7 +23,7 @@
 
           <!-- Call to Action Buttons -->
           <div class="flex flex-wrap gap-6 animate-fade-in-up d-none d-md-flex">
-            <a href="/contact" class=" btn btn-secondary">
+            <a href="/contact" class=" btn btn-secondary bg-white text-black">
            start project
             </a>
             <a href="/projects" class="btn btn-secondary">
@@ -43,17 +43,17 @@
         <!-- Social Icons Column -->
         <div class="lg:col-span-1 flex justify-center lg:justify-start lg:flex-col lg:items-end lg:space-y-6">
           <div class="social-icons flex lg:flex-col space-x-4 lg:space-x-0 lg:space-y-6">
-            <a href="https://facebook.com" target="_blank" class="social-icon animate-bounce delay-100">
-              <i class="fab fa-facebook-f"></i>
+            <a href="https://facebook.com" target="_blank" class="social-icon animate-bounce delay-100 ">
+             <img src="/assets/images/facebook.png" class="w-5"/>
             </a>
-            <a href="https://twitter.com" target="_blank" class="social-icon animate-bounce delay-200">
-              <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com" target="_blank" class="social-icon animate-bounce delay-200 ">
+            <img src="/assets/images/twitter.png" class="w-5"/>
             </a>
             <a href="https://instagram.com" target="_blank" class="social-icon animate-bounce delay-300">
-              <i class="fab fa-instagram"></i>
+            <img src="/assets/images/instagram.png" class="w-5"/>
             </a>
             <a href="https://linkedin.com" target="_blank" class="social-icon animate-bounce delay-400">
-              <i class="fab fa-linkedin-in"></i>
+<img src="/assets/images/linkedin.png" class="w-5"/>
             </a>
           </div>
         </div>
@@ -161,9 +161,8 @@ onMounted(() => {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.1);
+  background: white;
   backdrop-filter: blur(5px);
-  color: white;
   font-size: 18px;
   transition: all 0.3s ease;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);

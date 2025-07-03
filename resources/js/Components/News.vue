@@ -262,4 +262,7 @@ onMounted(() => {
   background-color: white !important;
   background: white !important;
 }
+.max-w-7xl {
+  max-width: 90%;
+}
 </style>

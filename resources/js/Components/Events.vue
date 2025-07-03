@@ -153,4 +153,7 @@ const events = ref([
     margin: 0 auto;
   }
 }
+.max-w-7xl {
+  max-width: 90%;
+}
 </style>

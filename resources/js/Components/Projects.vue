@@ -241,4 +241,7 @@ export default {
     grid-template-columns: 1fr;
   }
 }
+.max-w-7xl {
+  max-width: 90%;
+}
 </style>

@@ -293,4 +293,7 @@ const valueCards = ref([
     font-size: 1rem;
   }
 }
+.max-w-7xl {
+  max-width: 90%;
+}
 </style>

@@ -18,11 +18,11 @@
       <div class="section-title">
                             <h3 class="wow fadeInUp">welcome to Imad Jomaa's Website</h3>
                             <h1 class="text-anime-style-2" data-cursor="-opaque">Your vision, our <span>creative expertise</span></h1>
-                            <p>loreum ipsum loreum ipsum test loreum ipsum website</p>
+                            <p> the founder and president of JGROUP, established JGROUP in 2003 after completing his studies at the American University of Beirut (AUB). Jomaa has obtained a Masterâ€™s degree in financial economics and two bachelorâ€™s degrees in Economics and Chemistry, graduating as the valedictorian in his class. Since founding JGROUP.</p>
                         </div>
 
           <!-- Call to Action Buttons -->
-          <div class="flex flex-wrap gap-6 animate-fade-in-up">
+          <div class="flex flex-wrap gap-6 animate-fade-in-up d-none d-md-flex">
             <a href="/contact" class=" btn btn-secondary">
            start project
             </a>

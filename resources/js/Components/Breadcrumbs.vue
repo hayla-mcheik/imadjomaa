@@ -18,7 +18,7 @@
                                     :class="{ 'active': index === breadcrumbs.length - 1 }"
                                     aria-current="page"
                                 >
-                                    <Link v-if="index !== breadcrumbs.length - 1" :href="crumb.path">{{ crumb.title }}</Link>
+                                    <Link v-if="index !== breadcrumbs.length - 1" :href="crumb.path">/ {{ crumb.title }}</Link>
                                     <span v-else>{{ crumb.title }}</span>
                                 </li>
                             </ol>

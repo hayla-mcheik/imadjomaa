@@ -3,7 +3,7 @@
 <Breadcrumbs />
 <About />
 <Whatwedo />
-<Whywechoose />
+<Milestone />
     </GuestLayout>
 </template>
 
@@ -19,6 +19,7 @@ import GuestLayout from '@/Layouts/GuestLayout.vue'
   import { Link } from '@inertiajs/vue3';
 import Whatwedo from '@/Components/Whatwedo.vue';
 import Whywechoose from '@/Components/Whywechoose.vue';
+import Milestone from '@/Components/Milestone.vue';
 </script>
 
 <style scoped>

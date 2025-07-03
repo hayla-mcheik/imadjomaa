@@ -2,7 +2,7 @@
   <!-- About Section Start -->
   <div class="about-section relative overflow-hidden py-16">
     <!-- Optimized Space Background -->
-    <div class="absolute inset-0 z-0 bg-gradient-to-br from-black via-gray-900 to-red-900">
+    <div class="absolute inset-0 z-0 bg-black">
       <!-- Lightweight Stars -->
       <div class="stars"></div>
       <div class="stars stars-2"></div>
@@ -16,8 +16,8 @@
           About Us
         </h2>
         
-        <div class="about-description bg-gradient-to-br from-black/80 to-red-900/30 backdrop-blur-sm rounded-2xl border border-white/10 p-8">
-          <p class="text-xl text-white/90 leading-relaxed">
+        <div class="about-description bg-black p-2">
+          <p class="text-lg text-white/90 leading-relaxed">
             Dedicated to pushing the boundaries of innovation, Monty Mobile stands at the forefront of the telecommunications industry, 
             setting new benchmarks with our groundbreaking, in-house customized telecom solutions. With a relentless drive for improvement, 
             we have established ourselves as a prominent market force.
@@ -53,17 +53,17 @@ import { ref } from 'vue';
 
 const valueCards = ref([
   {
-    icon: 'fas fa-lightbulb text-yellow-400 text-3xl',
+    icon: 'fas fa-lightbulb text-white text-3xl',
     title: 'Innovation',
     description: 'Pioneering new solutions that redefine industry standards'
   },
   {
-    icon: 'fas fa-users text-blue-400 text-3xl',
+    icon: 'fas fa-users text-white text-3xl',
     title: 'Excellence',
     description: 'Delivering exceptional quality in every product and service'
   },
   {
-    icon: 'fas fa-rocket text-purple-400 text-3xl',
+    icon: 'fas fa-rocket text-white text-3xl',
     title: 'Growth',
     description: 'Continuously expanding our capabilities and market reach'
   }
@@ -144,7 +144,7 @@ const valueCards = ref([
   width: 100%;
   height: 100%;
   background: 
-    radial-gradient(circle at 30% 30%, #ff7852, #cd0707 30%, #7e0a04 70%);
+ black;
   border-radius: 50%;
   box-shadow: 
     inset -20px -20px 40px rgba(0, 0, 0, 0.8),
@@ -217,7 +217,7 @@ const valueCards = ref([
   font-weight: 700;
   color: white;
   margin-bottom: 15px;
-  background: linear-gradient(90deg, #ec4899, #8b5cf6);
+  background: linear-gradient(90deg, red, #fff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -234,7 +234,7 @@ const valueCards = ref([
   position: absolute;
   border-radius: 50%;
   background: white;
-  box-shadow: 0 0 10px 2px #8b5cf6;
+  box-shadow: 0 0 10px 2px red;
 }
 
 .sat-1 {

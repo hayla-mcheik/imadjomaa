@@ -66,7 +66,7 @@ onMounted(() => {
     },
     breakpoints: {
       640: {
-        slidesPerView: 1.5,
+        slidesPerView: 1,
       },
       768: {
         slidesPerView: 2,
@@ -172,11 +172,11 @@ onMounted(() => {
 }
 
 .news-bullet {
-  @apply w-3 h-3 rounded-full bg-gray-700 opacity-70 transition-all duration-300;
+  @apply w-3 h-3 rounded-full bg-white opacity-70 transition-all duration-300;
 }
 
 .swiper-pagination-bullet-active {
-  @apply w-8 bg-white opacity-100;
+  @apply w-8 bg-white;
 }
 
 /* Hover effects */
@@ -257,5 +257,9 @@ onMounted(() => {
 .view-all-btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 7px 20px rgba(6, 182, 212, 0.5);
+}
+.swiper-pagination-bullet{
+  background-color: white !important;
+  background: white !important;
 }
 </style>

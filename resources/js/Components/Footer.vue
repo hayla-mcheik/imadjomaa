@@ -27,9 +27,9 @@
                             <!-- Footer Privacy Policy Start -->
                             <div class="footer-privacy-policy">
                                 <ul>
-                                    <li><a href="#">help</a></li>
-                                    <li><a href="#">Privacy policy</a></li>
-                                    <li><a href="#">Term's & condition</a></li>
+                                    <li><Link href="#">help</Link></li>
+                                    <li><Link href="#">Privacy policy</Link></li>
+                                    <li><Link href="#">Term's & condition</Link></li>
                                 </ul>
                             </div>
                             <!-- Footer Privacy Policy End -->
@@ -42,10 +42,10 @@
                         <div class="footer-links">
                             <h3>Quick link</h3>
                             <ul>
-                                <li><a href="index.html">home</a></li>
-                                <li><a href="about.html">about us</a></li>
-                                <li><a href="services.html">services</a></li>
-                                <li><a href="blog.html">blog</a></li>
+                                <li><Link href="/">home</Link></li>
+                                <li><Link href="/about">about us</Link></li>
+                                <li><Link href="/projects">Projects</Link></li>
+                                <li><Link href="/news">PressKit</Link></li>
                             </ul>
                         </div>
                         <!-- Footer Links End -->
@@ -56,10 +56,10 @@
                         <div class="footer-links">
                             <h3>Services</h3>
                             <ul>
-                                <li><a href="service-single.html">search engine optimization</a></li>
-                                <li><a href="service-single.html">e-commerce solutions</a></li>
-                                <li><a href="service-single.html">web design & development</a></li>
-                                <li><a href="service-single.html">content management systems</a></li>
+                                <li><Link href="#">search engine optimization</Link></li>
+                                <li><Link href="#">e-commerce solutions</Link></li>
+                                <li><Link href="#">web design & development</Link></li>
+                                <li><Link href="#">content management systems</Link></li>
                             </ul>
                         </div>
                         <!-- Footer Links End -->
@@ -72,23 +72,19 @@
 
                             <!-- Footer Content Item Start -->
                             <div class="footer-contact-item">
-                                <div class="icon-box">
-                                    <img src="images/icon-phone.svg" alt="">
-                                </div>
+                         
                                 <div class="footer-contact-content">
-                                    <p><a href="tel:+123456789">+123 456 789</a></p>
-                                    <p><a href="#">domain@gmail.com</a></p>
+                                    <p><Link href="tel:+96178913139">+96178913139</Link></p>
+                                    <p><Link href="#">info@promo-fix.com</Link></p>
                                 </div>
                             </div>
                             <!-- Footer Content Item End -->
                             
                             <!-- Footer Content Item Start -->
                             <div class="footer-contact-item">
-                                <div class="icon-box">
-                                    <img src="images/icon-location.svg" alt="">
-                                </div>
+                           
                                 <div class="footer-contact-content">
-                                    <p>123 Creative Lane London, SW1A 1AA UK</p>
+                                    <p>beirut , lebanon</p>
                                 </div>
                             </div>
                             <!-- Footer Content Item End -->
@@ -115,10 +111,10 @@
                             <div class="footer-social-links">
                                 <span>Follow on: </span>
                                 <ul>
-                                    <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>                                    								
+                                    <li><Link href="#"><i class="fa-brands fa-whatsapp text-white"></i></Link></li>
+                                    <li><Link href="#"><i class="fa-brands fa-x-twitter text-white"></i></Link></li>
+                                    <li><Link href="#"><i class="fa-brands fa-facebook-f text-white"></i></Link></li>
+                                    <li><Link href="#"><i class="fa-brands fa-instagram text-white"></i></Link></li>                                    								
                                 </ul>
                             </div>
                             <!-- Footer Social Links End -->

@@ -12,10 +12,7 @@
             <i class="fas fa-envelope"></i>
             <span>info@promo-fix.com</span>
           </div>
-          <div class="top-bar-item">
-            <i class="fas fa-clock"></i>
-            <span>Mon-Fri: 9AM - 5PM</span>
-          </div>
+   
         </div>
 
       </div>
@@ -24,22 +21,22 @@
   <!-- Top Bar End -->
 
   <!-- Header Start -->
-  <header class="main-header">
+  <header class="main-header ">
     <nav class="navbar">
-      <div class="container">
+      <div class="container max-w-8xl">
         <!-- Logo -->
         <Link class="navbar-brand" href="/">
           <img src="/assets/images/logo.png" class="logo" alt="Logo">
         </Link>
-
+            <div class="flex justify-end items-center "><Link class="nav-link text-lg d-none d-md-flex" href="/projects" >Our Projects</Link>
+              <Link class="nav-link text-lg  d-none d-md-flex" href="/contact" >Contact Us</Link>
         <!-- Burger Button -->
         <button class="menu-toggle" @click="toggleDrawer">
-          <div class="menu-icon">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+          <div class="menu-icon w-[25px]">
+<img src="/assets/images/menu.svg" class="w-[25px]"/>
           </div>
         </button>
+        </div>
       </div>
     </nav>
 
@@ -53,12 +50,12 @@
         <!-- Centered Menu -->
         <div class="centered-menu">
           <ul class="nav-menu">
-            <li><Link class="nav-link" href="/" @click="toggleDrawer">Home</Link></li>
-            <li><Link class="nav-link" href="/about" @click="toggleDrawer">About Us</Link></li>
-            <li><Link class="nav-link" href="/projects" @click="toggleDrawer">Our Projects</Link></li>
-            <li><Link class="nav-link" href="/news" @click="toggleDrawer">Press Kit</Link></li>
-            <li><Link class="nav-link" href="/events" @click="toggleDrawer">Events</Link></li>
-            <li><Link class="nav-link" href="/contact" @click="toggleDrawer">Contact Us</Link></li>
+            <li><Link class="nav-link text-xl" href="/" @click="toggleDrawer">Home</Link></li>
+            <li><Link class="nav-link text-xl" href="/about" @click="toggleDrawer">About Us</Link></li>
+            <li><Link class="nav-link text-xl" href="/projects" @click="toggleDrawer">Our Projects</Link></li>
+            <li><Link class="nav-link text-xl" href="/news" @click="toggleDrawer">Press Kit</Link></li>
+            <li><Link class="nav-link text-xl" href="/events" @click="toggleDrawer">Events</Link></li>
+            <li><Link class="nav-link text-xl" href="/contact" @click="toggleDrawer">Contact Us</Link></li>
           </ul>
           
           <div class="drawer-footer">
@@ -128,20 +125,15 @@ onMounted(() => {
   font-size: 14px;
 }
 
-.top-bar-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 
 .top-bar-left {
   display: flex;
   gap: 30px;
+  justify-content: center;
 }
-
+.max-w-8xl{
+  max-width: 90%;
+}
 .top-bar-item {
   display: flex;
   align-items: center;
@@ -183,7 +175,7 @@ onMounted(() => {
 
 .navbar {
   background: white;
-  padding: 15px 0;
+  padding: 5px 0;
   transition: all 0.3s ease;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -192,17 +184,9 @@ onMounted(() => {
   padding: 10px 0;
 }
 
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 
 .logo {
-  height: 50px;
+  height: 60px;
   transition: all 0.3s ease;
 }
 
@@ -306,11 +290,10 @@ onMounted(() => {
 .nav-link {
   color: #1a1a1a;
   text-decoration: none;
-  font-size: 24px;
   font-weight: 600;
   transition: all 0.3s ease;
   position: relative;
-  padding: 10px 0;
+  padding: 10px 15px;
   display: inline-block;
 }
 

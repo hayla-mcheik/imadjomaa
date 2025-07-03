@@ -1,139 +1,101 @@
 <template>
-    <div class="container">
-                 <div class="section-title">
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Our <span>Brands</span></h2>
-                    </div>
-
-  <div class="brand-slider">
-    <swiper
-      :modules="[Autoplay]"
-      :slides-per-view="slidesPerView"
-      :space-between="30"
-      :autoplay="{
-        delay: 2500,
-        disableOnInteraction: false,
-      }"
-      :loop="true"
-      :breakpoints="breakpoints"
-    >
-      <swiper-slide >
-        <div class="logo-container bg-white p-5">
-          <img src="/assets/images/playhub-logo.png" class="logo-image">
+  <div class="brands-section relative py-20 overflow-hidden bg-gradient-to-br from-gray-900 to-black">
+    <!-- Background Elements -->
+    <div class="absolute inset-0 z-0">
+      <div class="absolute top-1/4 left-1/4 w-64 h-64 bg-red-800 rounded-full mix-blend-multiply filter blur-[100px] opacity-10"></div>
+      <div class="absolute bottom-1/3 right-1/4 w-72 h-72 bg-white rounded-full mix-blend-multiply filter blur-[100px] opacity-10"></div>
+    </div>
+    
+    <div class="container relative z-10 mx-auto px-4 max-w-7xl">
+      <div class="section-title mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold text-center text-white">Our <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-600">Brands</span></h2>
+        <p class="text-gray-400 text-center mt-4 max-w-2xl mx-auto">Discover the innovative brands that shape our digital ecosystem</p>
+      </div>
+      
+      <div class="brand-grid grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+        <!-- Brand Item 1 -->
+        <div class="brand-item group relative overflow-hidden rounded-2xl bg-white  backdrop-blur-sm p-6 border border-gray-700/50 transition-all duration-500 hover:border-red-500/30">
+          <div class="brand-logo flex items-center justify-center h-32">
+            <img src="/assets/images/playhub-logo.png" alt="Playhub" class="max-h-20 object-contain transition-all duration-500 group-hover:scale-110">
+          </div>
+          <div class="brand-name text-center mt-4 text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">Playhub</div>
         </div>
-      </swiper-slide>
-
-            <swiper-slide >
-        <div class="logo-container bg-white p-5">
-          <img src="/assets/images/Tunehub logo.png" class="logo-image">
+        
+        <!-- Brand Item 2 -->
+        <div class="brand-item group relative overflow-hidden rounded-2xl bg-white backdrop-blur-sm p-6 border border-gray-700/50 transition-all duration-500 hover:border-red-500/30">
+          <div class="brand-logo flex items-center justify-center h-32">
+            <img src="/assets/images/promomedia-logo-black.png" alt="Tunehub" class="max-h-20 object-contain transition-all duration-500 group-hover:scale-110">
+          </div>
+          <div class="brand-name text-center mt-4 text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">Tunehub</div>
         </div>
-      </swiper-slide>
-            <swiper-slide >
-        <div class="logo-container bg-white p-5">
-          <img src="/assets/images/playhub-logo.png" class="logo-image">
+        
+        <!-- Brand Item 3 -->
+        <div class="brand-item group relative overflow-hidden rounded-2xl bg-white backdrop-blur-sm p-6 border border-gray-700/50 transition-all duration-500 hover:border-red-500/30">
+          <div class="brand-logo flex items-center justify-center h-32">
+            <img src="/assets/images/promomedia-logo-black.png" alt="Techpulse" class="max-h-20 object-contain transition-all duration-500 group-hover:scale-110">
+          </div>
+          <div class="brand-name text-center mt-4 text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">Techpulse</div>
         </div>
-      </swiper-slide>
-            <swiper-slide >
-        <div class="logo-container bg-white p-5">
-          <img src="/assets/images/Techpulse logo.png" class="logo-image">
+        
+        <!-- Brand Item 4 -->
+        <div class="brand-item group relative overflow-hidden rounded-2xl bg-white  backdrop-blur-sm p-6 border border-gray-700/50 transition-all duration-500 hover:border-red-500/30">
+          <div class="brand-logo flex items-center justify-center h-32">
+            <img src="/assets/images/promomedia-logo-black.png" alt="Promomedia" class="max-h-20 object-contain transition-all duration-500 group-hover:scale-110">
+          </div>
+          <div class="brand-name text-center mt-4 text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">Promomedia</div>
         </div>
-      </swiper-slide>
-            <swiper-slide >
-        <div class="logo-container bg-white p-5">
-          <img src="/assets/images/promomedia-logo-black.png" class="logo-image">
+        
+        <!-- Brand Item 5 -->
+        <div class="brand-item group relative overflow-hidden rounded-2xl bg-white  backdrop-blur-sm p-6 border border-gray-700/50 transition-all duration-500 hover:border-red-500/30">
+          <div class="brand-logo flex items-center justify-center h-32">
+            <img src="/assets/images/promomedia-logo-black.png" alt="Amazon ADS" class="max-h-20 object-contain transition-all duration-500 group-hover:scale-110">
+          </div>
+          <div class="brand-name text-center mt-4 text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">Amazon ADS</div>
         </div>
-      </swiper-slide>
-            <swiper-slide >
-        <div class="logo-container bg-white p-5">
-          <img src="/assets/images/Amazon ADS.png" class="logo-image">
-        </div>
-      </swiper-slide>
-            <swiper-slide >
-        <div class="logo-container bg-white p-5">
-          <img src="/assets/images/playhub-logo.png" class="logo-image">
-        </div>
-      </swiper-slide>
-            <swiper-slide >
-        <div class="logo-container bg-white p-5">
-          <img src="/assets/images/playhub-logo.png" class="logo-image">
-        </div>
-      </swiper-slide>
-            <swiper-slide >
-        <div class="logo-container bg-white p-5">
-          <img src="/assets/images/playhub-logo.png" class="logo-image">
-        </div>
-      </swiper-slide>
-    </swiper>
-  </div>
+        
+        <!-- Add more brand items as needed -->
+      </div>
+      
+      <!-- View All Button -->
+      <div class="text-center mt-12">
+        <button class="view-all-btn px-8 py-3 bg-gradient-to-r from-red-600 to-red-500 rounded-full text-white font-medium hover:opacity-90 transition-all duration-300 group">
+          View All Brands
+          <i class="fas fa-arrow-right text-xs ml-2 transform group-hover:translate-x-1 transition-transform"></i>
+        </button>
+      </div>
+    </div>
   </div>
 </template>
 
-<script>
-import { Swiper, SwiperSlide } from 'swiper/vue'
-import { Autoplay } from 'swiper/modules'
-import 'swiper/css'
-
-export default {
-  components: { Swiper, SwiperSlide },
-  setup() {
-    const breakpoints = {
-      320: { slidesPerView: 2 },
-      640: { slidesPerView: 3 },
-      768: { slidesPerView: 4 },
-      1024: { slidesPerView: 5 },
-      1280: { slidesPerView: 6 }
-    }
-
-    return {
-      Autoplay,
-      slidesPerView: 5,
-      breakpoints
-    }
-  }
-}
-</script>
-
 <style scoped>
-.brand-slider {
-  padding: 2rem 0;
+.brands-section {
+  position: relative;
 }
 
-.logo-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
-  padding: 0 15px;
+.brand-item {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease;
 }
 
-.logo-image {
-  max-width: 100%;
-  max-height: 80px;
-  width: auto;
-  height: auto;
-  filter: grayscale(100%);
-  opacity: 0.7;
+.brand-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(239, 68, 68, 0.2);
+}
+
+.view-all-btn {
+  box-shadow: 0 4px 15px rgba(239, 68, 68, 0.4);
   transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.logo-image:hover {
-  filter: grayscale(0%);
-  opacity: 1;
-  transform: scale(1.05);
+.view-all-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 7px 20px rgba(239, 68, 68, 0.5);
 }
 
-/* Optional navigation buttons */
-:deep(.swiper-button-prev),
-:deep(.swiper-button-next) {
-  color: #333;
-  background: rgba(255,255,255,0.8);
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
-:deep(.swiper-button-prev::after),
-:deep(.swiper-button-next::after) {
-  font-size: 18px;
+@media (max-width: 640px) {
+  .brand-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 </style>

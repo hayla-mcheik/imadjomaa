@@ -929,7 +929,9 @@ body:has(.offcanvas){
 	position: relative;
 	padding: 100px 0 120px;
 }
-
+.max-w-8xl{
+  max-width: 90%;
+}
 .hero::before{
 	content: '';
 	position: absolute;
@@ -3400,7 +3402,7 @@ body:has(.offcanvas){
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	padding: 251px 0 150px;
+	padding: 150px 0 100px;
 }
 
 .page-header::before{
@@ -7668,6 +7670,9 @@ body:has(.offcanvas){
 }
 
 @media only screen and (max-width: 767px){
+	    .social-icons{
+		display: none !important;
+	}
 
 	body{
 		background-size: 200% auto;
@@ -8735,4 +8740,7 @@ body:has(.offcanvas){
         height: 350px;
         border-radius: 20px;
     }
+}
+.breadcrumb{
+	display: none;
 }

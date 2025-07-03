@@ -1,41 +1,33 @@
 <template>
   <!-- Hero Section Start-->
-  <div class="hero relative overflow-hidden">
+  <div class="hero relative overflow-hidden ">
     <!-- Video Background -->
-    <div class="hero-bg-video absolute inset-0 z-0">
-      <video autoplay muted loop class="w-full h-full object-cover">
+    <div class="hero-bg-video absolute inset-0 z-0 ">
+      <!-- <video autoplay muted loop class="w-full h-full object-cover">
         <source src="/assets/images/hero-video.mp4" type="video/mp4">
-      </video>
+      </video> -->
       <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-black/20 z-10"></div>
       <div class="absolute inset-0 bg-gradient-to-t from-black/90 to-transparent z-10"></div>
     </div>
 
-    <div class="container relative z-20 flex items-center">
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+    <div class="container relative z-20 flex items-center max-w-8xl">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center ">
         <!-- Left Content Column -->
         <div class="lg:col-span-7">
           <!-- Section Title -->
-          <div class="section-title mb-8">
-            <h3 class="text-lg md:text-xl font-semibold text-red-500 tracking-wider mb-4 animate-fade-in-down">
-              Welcome to Mad Jomaa's
-            </h3>
-            <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6">
-              <span class="text-gradient">Your vision,</span> 
-              <span class="block mt-2">our <span class="text-gradient-2">creative</span> expertise</span>
-            </h1>
-            <p class="text-xl text-gray-300 max-w-2xl mb-10 animate-fade-in">
-              Transforming ideas into extraordinary digital experiences with cutting-edge solutions
-              and innovative design.
-            </p>
-          </div>
+      <div class="section-title">
+                            <h3 class="wow fadeInUp">welcome to Imad Jomaa's Website</h3>
+                            <h1 class="text-anime-style-2" data-cursor="-opaque">Your vision, our <span>creative expertise</span></h1>
+                            <p>loreum ipsum loreum ipsum test loreum ipsum website</p>
+                        </div>
 
           <!-- Call to Action Buttons -->
           <div class="flex flex-wrap gap-6 animate-fade-in-up">
-            <a href="/contact" class=" btn btn-primary">
-              <i class="fas fa-calendar-check mr-3"></i> Book Consultation
+            <a href="/contact" class=" btn btn-secondary">
+           start project
             </a>
-            <a href="/services" class="btn btn-secondary">
-              <i class="fas fa-procedures mr-3"></i> View Services
+            <a href="/projects" class="btn btn-secondary">
+           View Projects
             </a>
           </div>
         </div>
@@ -69,11 +61,7 @@
     </div>
 
     <!-- Scrolling Indicator -->
-    <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-20 animate-bounce">
-      <div class="w-8 h-14 rounded-full border-2 border-white flex justify-center">
-        <div class="w-2 h-2 bg-white rounded-full mt-2 animate-scroll"></div>
-      </div>
-    </div>
+
   </div>
   <!-- Hero Section End-->
 </template>
@@ -114,6 +102,9 @@ onMounted(() => {
   object-fit: cover;
 }
 
+.max-w-8xl{
+  max-width: 90%;
+}
 .text-gradient {
   background: linear-gradient(90deg, #fff, red);
   -webkit-background-clip: text;

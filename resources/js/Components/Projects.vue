@@ -22,7 +22,7 @@
         </div>
       </div>
 
-      <div class="projects-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div class="projects-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
         <!-- Project Item 1 -->
         <div class="project-item group bg-gray-800/50 backdrop-blur-sm rounded-2xl overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-red-500/20">
           <div class="project-image relative overflow-hidden">
@@ -73,35 +73,12 @@
           </div>
         </div>
         
-             <!-- Project Item 1 -->
-        <div class="project-item group bg-gray-800/50 backdrop-blur-sm rounded-2xl overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-red-500/20">
-          <div class="project-image relative overflow-hidden">
-            <div class="aspect-w-16 aspect-h-10">
-              <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" 
-                   alt="Modern web design" 
-                   class="w-full h-64 object-cover transition-all duration-700 group-hover:scale-110">
-            </div>
-          </div>
-          
-          <div class="project-content p-6">
-            <div class="flex justify-between items-start mb-4">
-              <div class="project-category">
-                <span class="inline-block px-3 py-1 bg-gradient-to-r from-red-500 to-rose-500 text-white text-xs font-semibold rounded-full">
-                  Web Design
-                </span>
-              </div>
-            </div>
-            
-            <h3 class="project-title text-xl font-bold text-white mb-3">Innovative E-commerce Platform</h3>
-            <p class="text-gray-400 text-sm mb-4">A modern shopping experience with seamless checkout and personalized recommendations.</p>
-            
-          </div>
-        </div>
+
         
       </div>
       
       <!-- Stats Section -->
-      <div class="stats-section grid grid-cols-2 md:grid-cols-4 gap-6 mt-20">
+      <div class="stats-section grid grid-cols-2 md:grid-cols-4 gap-6 mt-2">
         <div class="stat-item bg-gray-800/50 backdrop-blur-sm p-6 rounded-2xl text-center border border-gray-700/50">
           <div class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-rose-500 mb-2">250+</div>
           <div class="text-gray-400 text-sm">Projects Completed</div>

@@ -33,7 +33,9 @@
 	<!-- Main Custom Css -->
 	<link href="{{ asset('assets/css/custom.css')}}" rel="stylesheet" media="screen">
         <!-- Template Stylesheet -->
-
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
         <!-- Scripts -->
         @routes
         @vite(['resources/js/app.js', "resources/js/Pages/{$page['component']}.vue"])
@@ -72,7 +74,10 @@
     <script src="{{ asset('assets/js/wow.min.js')}}"></script>
     <!-- Main Custom js file -->
     <script src="{{ asset('assets/js/function.js')}}"></script>
-    
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
         <!-- Template Javascript -->
     </body>
 </html>

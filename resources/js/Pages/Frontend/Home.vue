@@ -54,7 +54,7 @@ onUpdated(() => {
 <Events />
 <News />
 <Brand />
-<!-- <Map /> -->
+<Map /> 
 </GuestLayout>
 </template>
 

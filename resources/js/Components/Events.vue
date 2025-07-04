@@ -1,4 +1,5 @@
 <script setup>
+import { Link } from '@inertiajs/vue3';
 import { ref } from 'vue';
 
 const events = ref([
@@ -88,8 +89,9 @@ const events = ref([
       <!-- View All Button -->
       <div class="text-center mt-12">
         <button class="view-all-btn px-8 py-3 bg-gradient-to-r from-red-600 to-red-500 rounded-full text-white font-medium hover:opacity-90 transition-all duration-300 group">
-          View All Events
+        <Link href="/events"> View All Events
           <i class="fas fa-arrow-right text-xs ml-2 transform group-hover:translate-x-1 transition-transform"></i>
+       </Link>
         </button>
       </div>
     </div>

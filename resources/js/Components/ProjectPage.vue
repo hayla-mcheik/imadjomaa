@@ -24,9 +24,11 @@
               <div class="project-item group bg-gray-800/50 backdrop-blur-sm rounded-2xl overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-red-500/20">
           <div class="project-image relative overflow-hidden">
             <div class="aspect-w-16 aspect-h-10">
+               <Link href="/project-details">
               <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" 
                    alt="Modern web design" 
                    class="w-full h-64 object-cover transition-all duration-700 group-hover:scale-110">
+               </Link>
             </div>
           </div>
           
@@ -39,20 +41,21 @@
               </div>
             </div>
             
-            <h3 class="project-title text-xl font-bold text-white mb-3">Innovative E-commerce Platform</h3>
+            <h3 class="project-title text-xl font-bold text-white mb-3"> <Link href="/project-details">Innovative E-commerce Platform</Link></h3>
             <p class="text-gray-400 text-sm mb-4">A modern shopping experience with seamless checkout and personalized recommendations.</p>
             
           </div>
         </div>
                         </div>
-
-                        <div class="col-lg-4 col-md-6 project-item-box brand uiux urban wow fadeInUp" data-wow-delay="0.2s">
-                     <div class="project-item group bg-gray-800/50 backdrop-blur-sm rounded-2xl overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-red-500/20">
+			<div class="col-lg-4 col-md-6 project-item-box brand content social">
+              <div class="project-item group bg-gray-800/50 backdrop-blur-sm rounded-2xl overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-red-500/20">
           <div class="project-image relative overflow-hidden">
             <div class="aspect-w-16 aspect-h-10">
+               <Link href="/project-details">
               <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" 
                    alt="Modern web design" 
                    class="w-full h-64 object-cover transition-all duration-700 group-hover:scale-110">
+               </Link>
             </div>
           </div>
           
@@ -65,20 +68,21 @@
               </div>
             </div>
             
-            <h3 class="project-title text-xl font-bold text-white mb-3">Innovative E-commerce Platform</h3>
+            <h3 class="project-title text-xl font-bold text-white mb-3"> <Link href="/project-details">Innovative E-commerce Platform</Link></h3>
             <p class="text-gray-400 text-sm mb-4">A modern shopping experience with seamless checkout and personalized recommendations.</p>
             
           </div>
         </div>
                         </div>
-
-                        <div class="col-lg-4 col-md-6 project-item-box uiux brand social wow fadeInUp" data-wow-delay="0.4s">
-                       <div class="project-item group bg-gray-800/50 backdrop-blur-sm rounded-2xl overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-red-500/20">
+                        			<div class="col-lg-4 col-md-6 project-item-box brand content social">
+              <div class="project-item group bg-gray-800/50 backdrop-blur-sm rounded-2xl overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-red-500/20">
           <div class="project-image relative overflow-hidden">
             <div class="aspect-w-16 aspect-h-10">
+               <Link href="/project-details">
               <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" 
                    alt="Modern web design" 
                    class="w-full h-64 object-cover transition-all duration-700 group-hover:scale-110">
+               </Link>
             </div>
           </div>
           
@@ -91,20 +95,21 @@
               </div>
             </div>
             
-            <h3 class="project-title text-xl font-bold text-white mb-3">Innovative E-commerce Platform</h3>
+            <h3 class="project-title text-xl font-bold text-white mb-3"> <Link href="/project-details">Innovative E-commerce Platform</Link></h3>
             <p class="text-gray-400 text-sm mb-4">A modern shopping experience with seamless checkout and personalized recommendations.</p>
             
           </div>
         </div>
                         </div>
-
-                        <div class="col-lg-4 col-md-6 project-item-box content social urban wow fadeInUp" data-wow-delay="0.6s">
-                       <div class="project-item group bg-gray-800/50 backdrop-blur-sm rounded-2xl overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-red-500/20">
+                        			<div class="col-lg-4 col-md-6 project-item-box brand content social">
+              <div class="project-item group bg-gray-800/50 backdrop-blur-sm rounded-2xl overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-red-500/20">
           <div class="project-image relative overflow-hidden">
             <div class="aspect-w-16 aspect-h-10">
+               <Link href="/project-details">
               <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" 
                    alt="Modern web design" 
                    class="w-full h-64 object-cover transition-all duration-700 group-hover:scale-110">
+               </Link>
             </div>
           </div>
           
@@ -117,7 +122,7 @@
               </div>
             </div>
             
-            <h3 class="project-title text-xl font-bold text-white mb-3">Innovative E-commerce Platform</h3>
+            <h3 class="project-title text-xl font-bold text-white mb-3"> <Link href="/project-details">Innovative E-commerce Platform</Link></h3>
             <p class="text-gray-400 text-sm mb-4">A modern shopping experience with seamless checkout and personalized recommendations.</p>
             
           </div>
@@ -134,6 +139,8 @@
 </template>
 
 <script setup>
+import { Link } from '@inertiajs/vue3';
+
 
 </script>
 

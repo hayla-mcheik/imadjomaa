@@ -1,4 +1,5 @@
 <script setup>
+import { Link } from '@inertiajs/vue3';
 import { ref } from 'vue';
 
 const newsItems = ref([
@@ -53,13 +54,14 @@ const newsItems = ref([
           class="news-card group relative overflow-hidden rounded-2xl transition-all duration-300 transform hover:scale-[1.02] hover:shadow-xl"
         >
           <!-- Background Image -->
+              <Link href="/news-details">
           <div 
             class="absolute inset-0 bg-cover bg-center transition-all duration-700 group-hover:scale-110"
             :style="{ backgroundImage: `url(${item.image})` }"
           >
             <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
           </div>
-          
+        </Link>
           <!-- Content Overlay -->
           <div class="relative z-10 p-6 flex flex-col justify-end min-h-[400px]">
             <div class="news-category mb-3">
@@ -80,8 +82,9 @@ const newsItems = ref([
             <p class="news-excerpt text-gray-200 text-sm mb-5">{{ item.excerpt }}</p>
             
             <button class="news-cta w-full py-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg text-white font-medium hover:bg-white/20 transition-all duration-300 flex items-center justify-center gap-2">
-              Read More
+          <Link href="/news-details">Read More
               <i class="fas fa-arrow-right text-xs"></i>
+          </Link>
             </button>
           </div>
         </div>
@@ -89,7 +92,7 @@ const newsItems = ref([
       
       <div class="text-center mt-12">
         <button class="view-all-btn px-8 py-3 bg-gradient-to-r from-red-600 to-red-500 rounded-full text-white font-medium hover:opacity-90 transition-all duration-300 group">
-          View All News
+         <Link href="/news"> View All News</Link>
         </button>
       </div>
     </div>

@@ -23,9 +23,9 @@
 
           <!-- Call to Action Buttons -->
           <div class="flex flex-wrap gap-6 animate-fade-in-up d-none d-md-none d-lg-flex">
-            <a href="/contact" class=" btn btn-secondary bg-white text-black">
+            <Link href="/contact" class=" btn btn-secondary bg-white text-black">
            start project
-            </a>
+            </Link>
             <a href="/projects" class="btn btn-secondary">
            View Projects
             </a>

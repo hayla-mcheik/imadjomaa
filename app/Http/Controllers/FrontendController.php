@@ -36,6 +36,13 @@ class FrontendController extends Controller
 
 
     
+        public function newsdetails()
+    {
+        return Inertia::render('Frontend/BlogDetails', [
+            'title' => 'Blog Details'
+        ]);
+    }
+    
 
     public function events()
     {

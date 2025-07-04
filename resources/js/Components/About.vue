@@ -1,6 +1,6 @@
 <template>
   <!-- About Section Start -->
-  <div class="about-section relative overflow-hidden py-16 page-project-single">
+  <div class="about-section relative overflow-hidden pt-16 page-project-single border-b-8 border-white">
     <!-- Optimized Space Background -->
     <div class="absolute inset-0 bg-black">
       <!-- Lightweight Stars -->
@@ -39,11 +39,22 @@
         
         <!-- Mission & Vision Column -->
         <div class="grid grid-cols-1 gap-8">
+          <div class="mission-vision-card bg-gradient-to-br from-red-900/30 to-transparent p-6 border border-red-500/30 rounded-xl">
+            <div class="flex items-start">
+                <div class="icon-container bg-red-900/80 p-3 rounded-lg mr-4">
+                <i class="fas fa-eye text-xl text-white"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-white">Quote</h3>
+            </div>
+            <p class="text-white/80 pl-14">
+              To revolutionize the telecommunications landscape by delivering cutting-edge, customized solutions that enable seamless global connectivity.
+            </p>
+          </div>
           <!-- Mission Card -->
-          <div class="mission-vision-card bg-gradient-to-br from-purple-900/30 to-transparent p-6 border border-purple-500/30 rounded-xl">
-            <div class="flex items-start mb-4">
-              <div class="icon-container bg-purple-900/80 p-3 rounded-lg mr-4">
-                <i class="fas fa-bullseye text-xl text-white"></i>
+          <div class="mission-vision-card  bg-gradient-to-br from-red-900/30 to-transparent p-6 border border-red-500/30 rounded-xl">
+            <div class="flex items-start">
+                <div class="icon-container bg-red-900/80 p-3 rounded-lg mr-4">
+                <i class="fas fa-eye text-xl text-white"></i>
               </div>
               <h3 class="text-2xl font-bold text-white">Our Mission</h3>
             </div>
@@ -54,7 +65,7 @@
           
           <!-- Vision Card -->
           <div class="mission-vision-card bg-gradient-to-br from-red-900/30 to-transparent p-6 border border-red-500/30 rounded-xl">
-            <div class="flex items-start mb-4">
+            <div class="flex items-start">
               <div class="icon-container bg-red-900/80 p-3 rounded-lg mr-4">
                 <i class="fas fa-eye text-xl text-white"></i>
               </div>

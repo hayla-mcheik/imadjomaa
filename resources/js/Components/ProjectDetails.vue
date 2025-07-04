@@ -18,7 +18,7 @@
                         <div class="project-entry">
                             <!-- Project Info Start -->
                             <div class="project-info">
-                                <h2 class="text-anime-style-2">Project <span>overview</span></h2>
+                                <h2 class="text-anime-style-2">Loreum ipsum</h2>
                                 <p class="wow fadeInUp" data-wow-delay="0.2s">Innovative identity design goes beyond just creating a logo—it's about crafting a unique visual and emotional representation of your brand. We fuse creativity with strategy to develop a cohesive identity that reflects your brand's personality, values, and mission. From logos and color schemes to typography and brand guidelines, our designs ensure consistency across all touchpoints, making your brand memorable and instantly recognizable. With an innovative identity design, you'll stand out from the competition, connect with your audience, and build lasting brand loyalty.</p>
                                 <p class="wow fadeInUp" data-wow-delay="0.4s">This cohesive identity not only enhances brand recognition but also ensures consistency across all platforms, building trust and emotional connection. With an innovative approach, we help your brand stand out, leaving a lasting impression that drives loyalty and growth.</p>
                             </div>
@@ -26,7 +26,7 @@
 
                             <!-- Project Challenges Start -->
                             <div class="project-challenges">
-                                <h2 class="text-anime-style-2">Challenges & <span>constraints</span></h2>
+                                <h2 class="text-anime-style-2">Loreum ipsum</h2>
                                 <p class="wow fadeInUp" data-wow-delay="0.2s">When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.</p>
 
                                 <!-- Project Entry List Start -->
@@ -40,7 +40,7 @@
                             
                             <!-- Project Solution Start -->
                             <div class="project-solution">
-                                <h2 class="text-anime-style-2">Projects <span>solution</span></h2>
+                                <h2 class="text-anime-style-2">Loreum ipsum</h2>
                                 <p class="wow fadeInUp" data-wow-delay="0.2s">Our innovative identity design solution crafted a distinctive visual identity that perfectly reflects the brand's values and mission. Through a cohesive logo, color palette, and typography, we delivered a unified brand experience that enhances recognition, builds trust, and sets the brand apart.</p>
 
                                 <!-- Project Solution Rating Start -->

@@ -1,6 +1,6 @@
 <template>
   <!-- Our Projects Section Start -->
-  <div class="projects-section py-20 overflow-hidden bg-gradient-to-br from-gray-900 to-black">
+  <div class="projects-section py-20 overflow-hidden bg-black border-b-8 border-white">
     <!-- Background Elements -->
     <div class="absolute inset-0 z-0">
       <div class="absolute top-1/4 left-1/4 w-64 h-64 bg-indigo-800 rounded-full mix-blend-multiply filter blur-[100px] opacity-20"></div>
@@ -8,7 +8,7 @@
     </div>
     
     <div class="container relative z-10 mx-auto px-4 max-w-7xl">
-      <div class="section-header flex flex-col md:flex-row justify-between items-center mb-16">
+      <div class="section-header flex flex-col md:flex-row justify-between items-center">
       <div class="section-title mb-12">
         <h2 class="text-4xl md:text-5xl font-bold text-center text-white">Our <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-600">Projects</span></h2>
         <p class="text-gray-400 text-center mt-4 max-w-2xl mx-auto">Discover the premier events where innovation meets opportunity</p>

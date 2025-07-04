@@ -1,7 +1,7 @@
 <template>
   <div class="our-story">
     <!-- Hero Section -->
-    <section class="hero bg-gradient-to-r from-indigo-900 to-purple-800 text-white py-24 px-4">
+    <section class="hero bg-gradient-to-r from-indigo-900 to-purple-800 text-white py-24 px-4 border-b-8 border-white">
       <div class="container mx-auto text-center max-w-4xl">
         <h1 class="text-4xl md:text-6xl font-serif font-bold mb-6">Our Journey</h1>
         <p class="text-xl md:text-2xl opacity-90 max-w-2xl mx-auto">

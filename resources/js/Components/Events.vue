@@ -30,7 +30,7 @@ const events = ref([
 </script>
 
 <template>
-  <div class="events-section relative py-16 overflow-hidden bg-black">
+  <div class="events-section relative py-16 overflow-hidden bg-black border-b-8 border-white">
     <!-- Background Elements -->
     <div class="absolute inset-0 z-0">
       <div class="absolute top-1/4 left-1/4 w-64 h-64 bg-gradient-to-r from-red-600 to-red-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>

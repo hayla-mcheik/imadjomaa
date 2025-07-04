@@ -150,5 +150,7 @@ import { Link } from '@inertiajs/vue3';
 </script>
 
 <style scoped>
-
+.contact-info-image figure {
+    visibility: visible;
+}
 </style>

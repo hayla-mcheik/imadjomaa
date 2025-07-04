@@ -1,9 +1,10 @@
 <template>
-  <div class="milestones-container">
-    <div class="header">
-      <h1>Our Journey</h1>
-      <p>Discover the milestones that shaped our company's success story. Each achievement represents our commitment to excellence and innovation.</p>
-    </div>
+  <div class="milestones-container border-b-8 border-white py-16 relative py-16 overflow-hidde">
+      <div class="section-title mb-12">
+        <h2 class="text-4xl md:text-5xl font-bold text-center text-white">Our <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-600">Journey</span></h2>
+        <p class="text-gray-400 text-center mt-4 max-w-2xl mx-auto">Discover the milestones that shaped our company's success story.</p>
+      </div>
+
     
     <div class="timeline">
       <!-- Timeline center line -->
@@ -151,7 +152,6 @@ export default {
 .milestones-container {
   background: black;
   color: #fff;
-  padding: 0px 20px;
   min-height: 80vh;
   font-family: 'Poppins', sans-serif;
 }

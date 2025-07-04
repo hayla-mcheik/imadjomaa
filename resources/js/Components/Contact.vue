@@ -76,7 +76,7 @@
                         <div class="section-title">
                             <h3 class="wow fadeInUp">Contact us</h3>
                             <h2 class="text-anime-style-2" data-cursor="-opaque">Reach out to us <span>anytime</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">We're always here to assist you! Whether you have questions, need support, or want to discuss your next project, feel free to reach out anytime.</p>
+
                         </div>
                         <!-- Section Title End -->
 
@@ -110,7 +110,7 @@
                                     </div>
     
                                     <div class="col-md-12">
-                                        <button type="submit" class="btn-highlighted"><span>send message</span></button>
+                                        <button type="submit" class="btn-default"><span>send message</span></button>
                                         <div id="msgSubmit" class="h3 hidden"></div>
                                     </div>
                                 </div>

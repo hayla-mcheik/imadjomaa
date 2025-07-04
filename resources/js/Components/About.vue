@@ -1,14 +1,14 @@
 <template>
   <!-- About Section Start -->
-  <div class="about-section relative overflow-hidden py-16">
+  <div class="about-section relative overflow-hidden py-16 page-project-single">
     <!-- Optimized Space Background -->
-    <div class="absolute inset-0 z-0 bg-black">
+    <div class="absolute inset-0 bg-black">
       <!-- Lightweight Stars -->
       <div class="stars"></div>
       <div class="stars stars-2"></div>
     </div>
     
-    <div class="container relative z-10 mx-auto px-4 max-w-7xl">
+    <div class="container relative mx-auto px-4 max-w-7xl">
       <div class="max-w-4xl mx-auto text-center mb-16">
         <h2 class="text-4xl md:text-5xl font-bold text-white mb-8 leading-tight">
           About Us
@@ -24,7 +24,7 @@
       </div>
       
       <!-- New Quote, Mission & Vision Section -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto mb-16 items-center">
+      <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto mb-16 items-center">
         <!-- Image Column -->
         <div class="relative">
           <div class="rounded-2xl overflow-hidden border-2 border-purple-500/30 transform transition duration-700 hover:scale-105">

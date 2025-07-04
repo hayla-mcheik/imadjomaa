@@ -8740,6 +8740,6 @@ margin-left:250px;
 	color:white;
 }
 
-.what-do-item-image figure{
+.what-do-item-image figure , .contact-info-image figure ,.project-single-image figure {
 	visibility: visible;
 }

@@ -62,7 +62,7 @@ export default {
             { value: '1', label: 'Office' },
             { value: '5', label: 'Clients' }
           ],
-          visible: false
+          visible: true
         },
         {
           date: 'June 2019',
@@ -75,7 +75,7 @@ export default {
             { value: '120%', label: 'Growth' },
             { value: '50+', label: 'Clients' }
           ],
-          visible: false
+          visible: true
         },
         {
           date: 'March 2020',
@@ -88,7 +88,7 @@ export default {
             { value: '25', label: 'Team Members' },
             { value: '100+', label: 'Projects' }
           ],
-          visible: false
+          visible: true
         },
         {
           date: 'September 2021',
@@ -101,7 +101,7 @@ export default {
             { value: '45', label: 'Team Members' },
             { value: '250+', label: 'Clients' }
           ],
-          visible: false
+          visible: true
         },
         {
           date: 'May 2023',
@@ -114,7 +114,7 @@ export default {
             { value: '80+', label: 'Team Members' },
             { value: '500+', label: 'Projects' }
           ],
-          visible: false
+          visible: true
         }
       ]
     };
@@ -151,7 +151,7 @@ export default {
 .milestones-container {
   background: black;
   color: #fff;
-  padding: 60px 20px;
+  padding: 0px 20px;
   min-height: 80vh;
   font-family: 'Poppins', sans-serif;
 }

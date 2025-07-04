@@ -22,7 +22,7 @@
         </div>
       </div>
 
-      <div class="projects-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
+      <div class="projects-grid grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10">
         <!-- Project Item 1 -->
         <div class="project-item group bg-gray-800/50 backdrop-blur-sm rounded-2xl overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-red-500/20">
           <div class="project-image relative overflow-hidden">

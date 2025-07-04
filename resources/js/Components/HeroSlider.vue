@@ -18,11 +18,11 @@
       <div class="section-title">
                             <h3 class="wow fadeInUp">welcome to Imad Jomaa's Website</h3>
                             <h1 class="text-anime-style-2" data-cursor="-opaque">Your vision, our <span>creative expertise</span></h1>
-                            <p> the founder and president of JGROUP, established JGROUP in 2003 after completing his studies at the American University of Beirut (AUB). Jomaa has obtained a Masterâ€™s degree in financial economics and two bachelorâ€™s degrees in Economics and Chemistry, graduating as the valedictorian in his class. Since founding JGROUP.</p>
+                            <p> the founder and president of JGROUP, established JGROUP in 2003 after completing his studies at the American University of Beirut (AUB). Jomaa has obtained a Masterâ€™s degree in financial economics and two bachelorâ€™s degrees in Economics and Chemistry.</p>
                         </div>
 
           <!-- Call to Action Buttons -->
-          <div class="flex flex-wrap gap-6 animate-fade-in-up d-none d-md-flex">
+          <div class="flex flex-wrap gap-6 animate-fade-in-up d-none d-md-none d-lg-flex">
             <a href="/contact" class=" btn btn-secondary bg-white text-black">
            start project
             </a>
@@ -41,7 +41,7 @@
         </div>
 
         <!-- Social Icons Column -->
-        <div class="lg:col-span-1 flex justify-center lg:justify-start lg:flex-col lg:items-end lg:space-y-6">
+        <div class="lg:col-span-1  d-md-none d-lg-flex flex justify-center lg:justify-start lg:flex-col lg:items-end lg:space-y-6">
           <div class="social-icons flex lg:flex-col space-x-4 lg:space-x-0 lg:space-y-6">
             <a href="https://facebook.com" target="_blank" class="social-icon animate-bounce delay-100 ">
              <img src="/assets/images/facebook.png" class="w-5"/>
